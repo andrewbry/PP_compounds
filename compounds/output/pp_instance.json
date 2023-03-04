@@ -125,7 +125,7 @@
                 {
                     "metaName": "ViewportRect",
                     "metaType": "string",
-                    "metaValue": "647.874 -374.493 2173.7 1119.56"
+                    "metaValue": "-421.086 185.427 1539.39 881.284"
                 },
                 {
                     "metaName": "DisplayMode",
@@ -3391,8 +3391,8 @@
                     ]
                 },
                 {
-                    "nodeName": "pp_default_diagnostic_cube",
-                    "nodeType": "AB::PP::pp_default_diagnostic_cube",
+                    "nodeName": "pp_default_diagnostic_cube1",
+                    "nodeType": "AB::PP::Utility::pp_default_diagnostic_cube",
                     "metadata": [
                         {
                             "metaName": "DisplayMode",
@@ -3402,7 +3402,7 @@
                         {
                             "metaName": "LayoutPos",
                             "metaType": "string",
-                            "metaValue": "-24.2399 805.609"
+                            "metaValue": "20.6184 815.762"
                         }
                     ]
                 }
@@ -3489,7 +3489,7 @@
                     "target": "terminal.proxy.output"
                 },
                 {
-                    "source": "pp_default_diagnostic_cube.out_geometry",
+                    "source": "pp_default_diagnostic_cube1.out_geometry",
                     "target": "build_array.first.sphere_mesh"
                 }
             ],

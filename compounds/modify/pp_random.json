@@ -213,7 +213,7 @@
                 {
                     "metaName": "ViewportRect",
                     "metaType": "string",
-                    "metaValue": "-798.172 -471.091 1711.98 881.757"
+                    "metaValue": "-1647 -1699.25 2320.79 1001.83"
                 },
                 {
                     "metaName": "DisplayMode",
@@ -223,7 +223,7 @@
                 {
                     "metaName": "LayoutPos",
                     "metaType": "string",
-                    "metaValue": "-2624.73 -1595.81"
+                    "metaValue": "-2624.73 -1616.62"
                 },
                 {
                     "metaName": "UILayout",
@@ -1464,22 +1464,6 @@
                     ]
                 },
                 {
-                    "nodeName": "pp_default_diagnostic_cube1",
-                    "nodeType": "AB::PP::pp_default_diagnostic_cube",
-                    "metadata": [
-                        {
-                            "metaName": "DisplayMode",
-                            "metaType": "string",
-                            "metaValue": "2"
-                        },
-                        {
-                            "metaName": "LayoutPos",
-                            "metaType": "string",
-                            "metaValue": "1929.56 327.409"
-                        }
-                    ]
-                },
-                {
                     "nodeName": "set_geo_property1",
                     "nodeType": "Geometry::Properties::set_geo_property",
                     "metadata": [
@@ -1607,7 +1591,7 @@
                         {
                             "metaName": "LayoutPos",
                             "metaType": "string",
-                            "metaValue": "-889.328 -1563.1"
+                            "metaValue": "-758.476 -1561.26"
                         }
                     ]
                 },
@@ -1958,6 +1942,22 @@
                             "metaValue": "-1147.2 -1233.04"
                         }
                     ]
+                },
+                {
+                    "nodeName": "pp_default_diagnostic_cube",
+                    "nodeType": "AB::PP::Utility::pp_default_diagnostic_cube",
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "2"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "1933.95 317.033"
+                        }
+                    ]
                 }
             ],
             "connections": [
@@ -1968,10 +1968,6 @@
                 {
                     "source": "random_value_array.random_values",
                     "target": "multiply3.first.random_values"
-                },
-                {
-                    "source": "pp_default_diagnostic_cube1.out_geometry",
-                    "target": "create_instances.preview_geometries.cube_mesh"
                 },
                 {
                     "source": "create_instances.instances",
@@ -2192,6 +2188,10 @@
                 {
                     "source": "random_value2.random_value",
                     "target": "multiply4.first.output1"
+                },
+                {
+                    "source": "pp_default_diagnostic_cube.out_geometry",
+                    "target": "create_instances.preview_geometries.cube_mesh"
                 }
             ],
             "values": [

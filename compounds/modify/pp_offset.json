@@ -262,7 +262,7 @@
                 {
                     "metaName": "ViewportRect",
                     "metaType": "string",
-                    "metaValue": "267.124 -739.715 3015.59 1553.18"
+                    "metaValue": "1188.34 -157.183 1543.68 883.744"
                 },
                 {
                     "metaName": "DisplayMode",
@@ -2618,22 +2618,6 @@
                     ]
                 },
                 {
-                    "nodeName": "pp_default_diagnostic_cube1",
-                    "nodeType": "AB::PP::pp_default_diagnostic_cube",
-                    "metadata": [
-                        {
-                            "metaName": "DisplayMode",
-                            "metaType": "string",
-                            "metaValue": "2"
-                        },
-                        {
-                            "metaName": "LayoutPos",
-                            "metaType": "string",
-                            "metaValue": "1741.57 362.007"
-                        }
-                    ]
-                },
-                {
                     "nodeName": "interpret_auto_port_as_scalar1",
                     "nodeType": "Geometry::Common::interpret_auto_port_as_scalar",
                     "metadata": [
@@ -2896,6 +2880,22 @@
                             "metaValue": "2"
                         }
                     ]
+                },
+                {
+                    "nodeName": "pp_default_diagnostic_cube",
+                    "nodeType": "AB::PP::Utility::pp_default_diagnostic_cube",
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "2"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "1774.71 380.892"
+                        }
+                    ]
                 }
             ],
             "connections": [
@@ -2918,10 +2918,6 @@
                 {
                     "source": "pass1.output",
                     "target": "if.true_case"
-                },
-                {
-                    "source": "pp_default_diagnostic_cube1.out_geometry",
-                    "target": "create_instances.preview_geometries.cube_mesh"
                 },
                 {
                     "source": ".pp_in",
@@ -3106,6 +3102,10 @@
                 {
                     "source": ".Mask",
                     "target": "interpret_auto_port_as_scalar1.interpreted_scalar_port"
+                },
+                {
+                    "source": "pp_default_diagnostic_cube.out_geometry",
+                    "target": "create_instances.preview_geometries.cube_mesh"
                 }
             ],
             "values": [

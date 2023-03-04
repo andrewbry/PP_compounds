@@ -1,0 +1,19 @@
+{
+  "AminoConfigurations": [
+    {
+      "vendorName": "AndrewB",
+      "libraryVersion": "0.0.0",
+      "libraryName": "PP",
+      "jsonLibs": [
+        {
+          "path": "compounds",
+          "files": [ ]
+        },
+        {
+          "path": "graphs",
+          "files": [ ]
+        }
+      ]
+    }
+  ]
+}

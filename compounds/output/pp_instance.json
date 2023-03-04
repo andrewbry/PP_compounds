@@ -1,0 +1,3588 @@
+{
+    "header": {
+        "metadata": [
+            {
+                "metaName": "adskFileFormatVersion",
+                "metaValue": "100L"
+            }
+        ]
+    },
+    "namespaces": [],
+    "types": [],
+    "compounds": [
+        {
+            "name": "AB::PP::Output::pp_instance",
+            "uriImported": "stream:/bifrostGraphShape1",
+            "metadata": [
+                {
+                    "metaName": "io_nodes",
+                    "metadata": [
+                        {
+                            "metaName": "io_inodes",
+                            "metadata": [
+                                {
+                                    "metaName": "input",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "-38.0473 219"
+                                        },
+                                        {
+                                            "metaName": "io_ports",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "pp_in"
+                                                },
+                                                {
+                                                    "metaName": "mask_weights"
+                                                },
+                                                {
+                                                    "metaName": "instance_geometries"
+                                                },
+                                                {
+                                                    "metaName": "preview_mode"
+                                                },
+                                                {
+                                                    "metaName": "preview_geometries"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "metaName": "io_onodes",
+                            "metadata": [
+                                {
+                                    "metaName": "output",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "2691.28 141.307"
+                                        },
+                                        {
+                                            "metaName": "io_ports",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "instances"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "metaName": "icon",
+                    "metaType": "string",
+                    "metaValue": "../icons/genericScatterPack.svg"
+                },
+                {
+                    "metaName": "documentation",
+                    "metaType": "string",
+                    "metaValue": "../docs/${language}/create_instances.md"
+                },
+                {
+                    "metaName": "_recentNode_",
+                    "metaType": "string",
+                    "metaValue": "BifrostGraph,AB::PP,pp_default_diagnostic_cube"
+                },
+                {
+                    "metaName": "_recentNode_",
+                    "metaType": "string",
+                    "metaValue": "BifrostGraph,Geometry::Instances,set_instance_geometry"
+                },
+                {
+                    "metaName": "_recentNode_",
+                    "metaType": "string",
+                    "metaValue": "BifrostGraph,Core::Graph,pass"
+                },
+                {
+                    "metaName": "_recentNode_",
+                    "metaType": "string",
+                    "metaValue": "BifrostGraph,Core::Array,any_true_in_array"
+                },
+                {
+                    "metaName": "_recentNode_",
+                    "metaType": "string",
+                    "metaValue": "BifrostGraph,Geometry::Properties,get_geo_property_check"
+                },
+                {
+                    "metaName": "ViewportRect",
+                    "metaType": "string",
+                    "metaValue": "647.874 -374.493 2173.7 1119.56"
+                },
+                {
+                    "metaName": "DisplayMode",
+                    "metaType": "string",
+                    "metaValue": "2"
+                },
+                {
+                    "metaName": "LayoutPos",
+                    "metaType": "string",
+                    "metaValue": "-1353.96 -1604.96"
+                },
+                {
+                    "metaName": "UILayout",
+                    "metaType": "string",
+                    "metaValue": "{\n    \"NodeLayout\": {\n        \"hideUndeclaredPorts\": false,\n        \"items\": [\n            {\n                \"port\": \"pp_in\"\n            },\n            {\n                \"port\": \"instance_geometries\"\n            },\n            {\n                \"port\": \"mask_weights\"\n            },\n            {\n                \"expanded\": true,\n                \"group\": \"Selection\",\n                \"items\": [\n                    {\n                        \"port\": \"selection_mode\"\n                    },\n                    {\n                        \"port\": \"instance_id_override\"\n                    },\n                    {\n                        \"expanded\": true,\n                        \"group\": \"Randomization\",\n                        \"items\": [\n                            {\n                                \"port\": \"probability_curve\"\n                            },\n                            {\n                                \"port\": \"probabilities\"\n                            },\n                            {\n                                \"port\": \"seed\"\n                            }\n                        ]\n                    }\n                ]\n            },\n            {\n                \"expanded\": false,\n                \"group\": \"Preview Geometry\",\n                \"items\": [\n                    {\n                        \"port\": \"preview_mode\"\n                    },\n                    {\n                        \"port\": \"preview_geometries\"\n                    }\n                ]\n            }\n        ]\n    }\n}\n"
+                },
+                {
+                    "metaName": "PortExpandedState",
+                    "metadata": [
+                        {
+                            "metaName": "instance_geometries",
+                            "metaType": "string",
+                            "metaValue": "1"
+                        },
+                        {
+                            "metaName": "Selection",
+                            "metaType": "string",
+                            "metaValue": "1"
+                        },
+                        {
+                            "metaName": "Selection.Randomization",
+                            "metaType": "string",
+                            "metaValue": "1"
+                        },
+                        {
+                            "metaName": "Preview Geometry",
+                            "metaType": "string",
+                            "metaValue": "0"
+                        }
+                    ]
+                }
+            ],
+            "terminalStates": [
+                {
+                    "name": "Core::Graph::terminal::final",
+                    "enabled": "false"
+                },
+                {
+                    "name": "Core::Graph::terminal::proxy",
+                    "enabled": "false"
+                },
+                {
+                    "name": "Core::Graph::terminal::diagnostic",
+                    "enabled": "false"
+                }
+            ],
+            "ports": [
+                {
+                    "portName": "pp_in",
+                    "portDirection": "input",
+                    "portType": "Object"
+                },
+                {
+                    "portName": "mask_weights",
+                    "portDirection": "input",
+                    "metadata": [
+                        {
+                            "metaName": "TypeWranglingSuggestedTypes",
+                            "metaType": "string",
+                            "metaValue": "float, string, Core::Fields::ScalarField, array<float>, array<long>, array<bool>"
+                        }
+                    ]
+                },
+                {
+                    "portName": "instance_geometries",
+                    "portDirection": "input",
+                    "portType": "array<Object>",
+                    "isDefaultFanIn": "true",
+                    "metadata": [
+                        {
+                            "metaName": "quick_create",
+                            "metaType": "string",
+                            "metaValue": "Geometry::Instances::compound_instance;Geometry::Instances::geo_instance;Geometry::Instances::render_archive_instance;Geometry::Instances::selector_instance"
+                        }
+                    ]
+                },
+                {
+                    "portName": "preview_mode",
+                    "portDirection": "input",
+                    "portType": "Modeling::Points::CreateInstancesPreviewGeometry",
+                    "portDefault": "PreviewGeometry"
+                },
+                {
+                    "portName": "preview_geometries",
+                    "portDirection": "input",
+                    "portType": "array<Object>",
+                    "isDefaultFanIn": "true"
+                },
+                {
+                    "portName": "instances",
+                    "portDirection": "output"
+                }
+            ],
+            "compounds": [
+                {
+                    "name": "Internal_set_instance_geometry",
+                    "uriImported": "stream:/bifrostGraphShape1",
+                    "metadata": [
+                        {
+                            "metaName": "UILayout",
+                            "metaType": "string",
+                            "metaValue": "{\n    \"NodeLayout\": {\n        \"hideUndeclaredPorts\": false,\n        \"items\": [\n            {\n                \"port\": \"points\"\n            },\n            {\n                \"port\": \"instance_geometries\"\n            },\n            {\n                \"port\": \"preview_geometries\"\n            },\n            {\n                \"expanded\": false,\n                \"group\": \"Selection\",\n                \"items\": [\n                    {\n                        \"port\": \"instance_id_property\"\n                    },\n                    {\n                        \"port\": \"overwrite_instance_id\"\n                    },\n                    {\n                        \"port\": \"instance_id_values\"\n                    },\n                    {\n                        \"port\": \"wrap_out_of_range\"\n                    }\n                ]\n            }\n        ]\n    }\n}\n"
+                        },
+                        {
+                            "metaName": "_recentNode_",
+                            "metaType": "string",
+                            "metaValue": "BifrostGraph,Core::Logic,if"
+                        },
+                        {
+                            "metaName": "_recentNode_",
+                            "metaType": "string",
+                            "metaValue": "BifrostGraph,Core::Iterators,for_each"
+                        },
+                        {
+                            "metaName": "_recentNode_",
+                            "metaType": "string",
+                            "metaValue": "BifrostGraph,Core::Graph,pass"
+                        },
+                        {
+                            "metaName": "_recentNode_",
+                            "metaType": "string",
+                            "metaValue": "BifrostGraph,Core::Array,any_true_in_array"
+                        },
+                        {
+                            "metaName": "_recentNode_",
+                            "metaType": "string",
+                            "metaValue": "BifrostGraph,Geometry::Properties,get_geo_property_check"
+                        },
+                        {
+                            "metaName": "io_nodes",
+                            "metadata": [
+                                {
+                                    "metaName": "io_inodes",
+                                    "metadata": [
+                                        {
+                                            "metaName": "input",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "DisplayMode",
+                                                    "metaType": "string",
+                                                    "metaValue": "2"
+                                                },
+                                                {
+                                                    "metaName": "LayoutPos",
+                                                    "metaType": "string",
+                                                    "metaValue": "-65.8788 356.435"
+                                                },
+                                                {
+                                                    "metaName": "io_ports",
+                                                    "metadata": [
+                                                        {
+                                                            "metaName": "points"
+                                                        },
+                                                        {
+                                                            "metaName": "instance_geometries"
+                                                        },
+                                                        {
+                                                            "metaName": "preview_geometries"
+                                                        },
+                                                        {
+                                                            "metaName": "instance_id_property"
+                                                        },
+                                                        {
+                                                            "metaName": "wrap_out_of_range"
+                                                        },
+                                                        {
+                                                            "metaName": "preview_mode"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "metaName": "io_onodes",
+                                    "metadata": [
+                                        {
+                                            "metaName": "output",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "DisplayMode",
+                                                    "metaType": "string",
+                                                    "metaValue": "2"
+                                                },
+                                                {
+                                                    "metaName": "LayoutPos",
+                                                    "metaType": "string",
+                                                    "metaValue": "3052.99 45.5326"
+                                                },
+                                                {
+                                                    "metaName": "io_ports",
+                                                    "metadata": [
+                                                        {
+                                                            "metaName": "instances"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "metaName": "ViewportRect",
+                            "metaType": "string",
+                            "metaValue": "272.429 -264.092 2713.49 845.125"
+                        }
+                    ],
+                    "ports": [
+                        {
+                            "portName": "points",
+                            "portDirection": "input",
+                            "portType": "Object"
+                        },
+                        {
+                            "portName": "instance_geometries",
+                            "portDirection": "input",
+                            "portType": "array<Object>",
+                            "metadata": [
+                                {
+                                    "metaName": "quick_create",
+                                    "metaType": "string",
+                                    "metaValue": "Geometry::Instances::compound_instance;Geometry::Instances::geo_instance;Geometry::Instances::render_archive_instance;Geometry::Instances::selector_instance"
+                                }
+                            ]
+                        },
+                        {
+                            "portName": "preview_geometries",
+                            "portDirection": "input",
+                            "portType": "array<Object>"
+                        },
+                        {
+                            "portName": "instance_id_property",
+                            "portDirection": "input",
+                            "portType": "string"
+                        },
+                        {
+                            "portName": "wrap_out_of_range",
+                            "portDirection": "input",
+                            "portType": "bool"
+                        },
+                        {
+                            "portName": "preview_mode",
+                            "portDirection": "input",
+                            "portType": "Modeling::Points::CreateInstancesPreviewGeometry"
+                        },
+                        {
+                            "portName": "instances",
+                            "portDirection": "output",
+                            "portType": "Object"
+                        }
+                    ],
+                    "compounds": [
+                        {
+                            "name": "create_all_geo_instances",
+                            "uriImported": "stream:/bifrostGraphShape1",
+                            "metadata": [
+                                {
+                                    "metaName": "icon",
+                                    "metaType": "string",
+                                    "metaValue": "<NATIVE>../icons/LoopIterate.svg"
+                                },
+                                {
+                                    "metaName": "icon",
+                                    "metaType": "string",
+                                    "metaValue": "<NATIVE>../icons/LoopIterate.svg"
+                                },
+                                {
+                                    "metaName": "io_nodes",
+                                    "metadata": [
+                                        {
+                                            "metaName": "io_inodes",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "input",
+                                                    "metadata": [
+                                                        {
+                                                            "metaName": "DisplayMode",
+                                                            "metaType": "string",
+                                                            "metaValue": "2"
+                                                        },
+                                                        {
+                                                            "metaName": "LayoutPos",
+                                                            "metaType": "string",
+                                                            "metaValue": "10 81"
+                                                        },
+                                                        {
+                                                            "metaName": "io_ports",
+                                                            "metadata": [
+                                                                {
+                                                                    "metaName": "max_iterations"
+                                                                },
+                                                                {
+                                                                    "metaName": "current_index"
+                                                                },
+                                                                {
+                                                                    "metaName": "geometry"
+                                                                },
+                                                                {
+                                                                    "metaName": "preview_geometries"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "metaName": "io_onodes",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "output",
+                                                    "metadata": [
+                                                        {
+                                                            "metaName": "DisplayMode",
+                                                            "metaType": "string",
+                                                            "metaValue": "2"
+                                                        },
+                                                        {
+                                                            "metaName": "LayoutPos",
+                                                            "metaType": "string",
+                                                            "metaValue": "1840 120"
+                                                        },
+                                                        {
+                                                            "metaName": "io_ports",
+                                                            "metadata": [
+                                                                {
+                                                                    "metaName": "instance_shapes"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "metaName": "ViewportRect",
+                                    "metaType": "string",
+                                    "metaValue": "-569 -317 2134 780"
+                                }
+                            ],
+                            "ports": [
+                                {
+                                    "portName": "max_iterations",
+                                    "portDirection": "input",
+                                    "portType": "long",
+                                    "portIterationLimit": "true"
+                                },
+                                {
+                                    "portName": "current_index",
+                                    "portDirection": "input",
+                                    "portType": "long",
+                                    "portIterationCounter": "true"
+                                },
+                                {
+                                    "portName": "geometry",
+                                    "portDirection": "input",
+                                    "portIterationTarget": "true"
+                                },
+                                {
+                                    "portName": "preview_geometries",
+                                    "portDirection": "input",
+                                    "portType": "array<Object>"
+                                },
+                                {
+                                    "portName": "instance_shapes",
+                                    "portDirection": "output",
+                                    "portType": "array<Object>",
+                                    "portIterationTarget": "true"
+                                }
+                            ],
+                            "compounds": [
+                                {
+                                    "name": "get_preview_geometry",
+                                    "uriImported": "stream:/bifrostGraphShape1",
+                                    "metadata": [
+                                        {
+                                            "metaName": "io_nodes",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "io_inodes",
+                                                    "metadata": [
+                                                        {
+                                                            "metaName": "input",
+                                                            "metadata": [
+                                                                {
+                                                                    "metaName": "DisplayMode",
+                                                                    "metaType": "string",
+                                                                    "metaValue": "2"
+                                                                },
+                                                                {
+                                                                    "metaName": "LayoutPos",
+                                                                    "metaType": "string",
+                                                                    "metaValue": "-842 -61"
+                                                                },
+                                                                {
+                                                                    "metaName": "io_ports",
+                                                                    "metadata": [
+                                                                        {
+                                                                            "metaName": "preview_geometries"
+                                                                        },
+                                                                        {
+                                                                            "metaName": "index"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "metaName": "io_onodes",
+                                                    "metadata": [
+                                                        {
+                                                            "metaName": "output",
+                                                            "metadata": [
+                                                                {
+                                                                    "metaName": "DisplayMode",
+                                                                    "metaType": "string",
+                                                                    "metaValue": "2"
+                                                                },
+                                                                {
+                                                                    "metaName": "LayoutPos",
+                                                                    "metaType": "string",
+                                                                    "metaValue": "617 -61"
+                                                                },
+                                                                {
+                                                                    "metaName": "io_ports",
+                                                                    "metadata": [
+                                                                        {
+                                                                            "metaName": "output"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "metaName": "ViewportRect",
+                                            "metaType": "string",
+                                            "metaValue": "-1067 -390 2134 780"
+                                        }
+                                    ],
+                                    "ports": [
+                                        {
+                                            "portName": "preview_geometries",
+                                            "portDirection": "input",
+                                            "portType": "array<Object>"
+                                        },
+                                        {
+                                            "portName": "index",
+                                            "portDirection": "input",
+                                            "portType": "long"
+                                        },
+                                        {
+                                            "portName": "output",
+                                            "portDirection": "output"
+                                        }
+                                    ],
+                                    "compounds": [
+                                        {
+                                            "name": "clamp_to_array",
+                                            "uriImported": "stream:/bifrostGraphShape1",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "io_nodes",
+                                                    "metadata": [
+                                                        {
+                                                            "metaName": "io_inodes",
+                                                            "metadata": [
+                                                                {
+                                                                    "metaName": "input",
+                                                                    "metadata": [
+                                                                        {
+                                                                            "metaName": "io_ports",
+                                                                            "metadata": [
+                                                                                {
+                                                                                    "metaName": "index"
+                                                                                },
+                                                                                {
+                                                                                    "metaName": "size"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "metaName": "io_onodes",
+                                                            "metadata": [
+                                                                {
+                                                                    "metaName": "output",
+                                                                    "metadata": [
+                                                                        {
+                                                                            "metaName": "io_ports",
+                                                                            "metadata": [
+                                                                                {
+                                                                                    "metaName": "out_index"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "ports": [
+                                                {
+                                                    "portName": "index",
+                                                    "portDirection": "input"
+                                                },
+                                                {
+                                                    "portName": "size",
+                                                    "portDirection": "input"
+                                                },
+                                                {
+                                                    "portName": "out_index",
+                                                    "portDirection": "output"
+                                                }
+                                            ],
+                                            "compoundNodes": [
+                                                {
+                                                    "nodeName": "if2",
+                                                    "nodeType": "Core::Logic::if"
+                                                },
+                                                {
+                                                    "nodeName": "less",
+                                                    "nodeType": "Core::Logic::less"
+                                                },
+                                                {
+                                                    "nodeName": "one",
+                                                    "valueType": "long",
+                                                    "metadata": [
+                                                        {
+                                                            "metaName": "valuenode_defaultvalue",
+                                                            "metaType": "string",
+                                                            "metaValue": "1"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "nodeName": "subtract",
+                                                    "nodeType": "Core::Math::subtract",
+                                                    "multiInPortNames": [
+                                                        "size",
+                                                        "output1"
+                                                    ]
+                                                }
+                                            ],
+                                            "connections": [
+                                                {
+                                                    "source": "if2.output",
+                                                    "target": ".out_index"
+                                                },
+                                                {
+                                                    "source": "less.output",
+                                                    "target": "if2.condition"
+                                                },
+                                                {
+                                                    "source": "one.output",
+                                                    "target": "subtract.first.output1"
+                                                },
+                                                {
+                                                    "source": "subtract.output",
+                                                    "target": "if2.false_case"
+                                                },
+                                                {
+                                                    "source": ".index",
+                                                    "target": "if2.true_case"
+                                                },
+                                                {
+                                                    "source": ".index",
+                                                    "target": "less.first"
+                                                },
+                                                {
+                                                    "source": ".size",
+                                                    "target": "less.second"
+                                                },
+                                                {
+                                                    "source": ".size",
+                                                    "target": "subtract.first.size"
+                                                }
+                                            ],
+                                            "values": [
+                                                {
+                                                    "valueName": "one.value",
+                                                    "valueType": "long",
+                                                    "value": "1"
+                                                }
+                                            ],
+                                            "reservedNodeNames": [
+                                                {
+                                                    "name": "input"
+                                                },
+                                                {
+                                                    "name": "output"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "compoundNodes": [
+                                        {
+                                            "nodeName": "get_from_array",
+                                            "nodeType": "Core::Array::get_from_array",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "DisplayMode",
+                                                    "metaType": "string",
+                                                    "metaValue": "2"
+                                                },
+                                                {
+                                                    "metaName": "LayoutPos",
+                                                    "metaType": "string",
+                                                    "metaValue": "7 -28"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nodeName": "greater",
+                                            "nodeType": "Core::Logic::greater",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "DisplayMode",
+                                                    "metaType": "string",
+                                                    "metaValue": "2"
+                                                },
+                                                {
+                                                    "metaName": "LayoutPos",
+                                                    "metaType": "string",
+                                                    "metaValue": "7 -247"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nodeName": "if1",
+                                            "nodeType": "Core::Logic::if",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "DisplayMode",
+                                                    "metaType": "string",
+                                                    "metaValue": "2"
+                                                },
+                                                {
+                                                    "metaName": "LayoutPos",
+                                                    "metaType": "string",
+                                                    "metaValue": "312 -69"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nodeName": "value",
+                                            "valueType": "Object",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "valuenode_defaultvalue"
+                                                },
+                                                {
+                                                    "metaName": "DisplayMode",
+                                                    "metaType": "string",
+                                                    "metaValue": "2"
+                                                },
+                                                {
+                                                    "metaName": "LayoutPos",
+                                                    "metaType": "string",
+                                                    "metaValue": "7 190"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nodeName": "clamp_to_array",
+                                            "nodeType": "clamp_to_array",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "DisplayMode",
+                                                    "metaType": "string",
+                                                    "metaValue": "2"
+                                                },
+                                                {
+                                                    "metaName": "LayoutPos",
+                                                    "metaType": "string",
+                                                    "metaValue": "-298 -33"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nodeName": "array_size",
+                                            "nodeType": "Core::Array::array_size",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "DisplayMode",
+                                                    "metaType": "string",
+                                                    "metaValue": "2"
+                                                },
+                                                {
+                                                    "metaName": "LayoutPos",
+                                                    "metaType": "string",
+                                                    "metaValue": "-587 -226"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "connections": [
+                                        {
+                                            "source": "get_from_array.value",
+                                            "target": "if1.true_case"
+                                        },
+                                        {
+                                            "source": "greater.output",
+                                            "target": "if1.condition"
+                                        },
+                                        {
+                                            "source": "if1.output",
+                                            "target": ".output"
+                                        },
+                                        {
+                                            "source": "value.output",
+                                            "target": "if1.false_case"
+                                        },
+                                        {
+                                            "source": "clamp_to_array.out_index",
+                                            "target": "get_from_array.index"
+                                        },
+                                        {
+                                            "source": "array_size.size",
+                                            "target": "greater.first"
+                                        },
+                                        {
+                                            "source": "array_size.size",
+                                            "target": "clamp_to_array.size"
+                                        },
+                                        {
+                                            "source": ".preview_geometries",
+                                            "target": "get_from_array.array"
+                                        },
+                                        {
+                                            "source": ".preview_geometries",
+                                            "target": "array_size.array"
+                                        },
+                                        {
+                                            "source": ".index",
+                                            "target": "clamp_to_array.index"
+                                        }
+                                    ],
+                                    "values": [
+                                        {
+                                            "valueName": "value.value",
+                                            "valueType": "Object",
+                                            "value": {}
+                                        },
+                                        {
+                                            "valueName": "clamp_to_array.index",
+                                            "valueType": "double",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "valueName": "clamp_to_array.size",
+                                            "valueType": "double",
+                                            "value": "0"
+                                        }
+                                    ],
+                                    "reservedNodeNames": [
+                                        {
+                                            "name": "input"
+                                        },
+                                        {
+                                            "name": "output"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "compound",
+                                    "uriImported": "stream:/bifrostGraphShape1",
+                                    "metadata": [
+                                        {
+                                            "metaName": "io_nodes",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "io_inodes",
+                                                    "metadata": [
+                                                        {
+                                                            "metaName": "input",
+                                                            "metadata": [
+                                                                {
+                                                                    "metaName": "DisplayMode",
+                                                                    "metaType": "string",
+                                                                    "metaValue": "2"
+                                                                },
+                                                                {
+                                                                    "metaName": "LayoutPos",
+                                                                    "metaType": "string",
+                                                                    "metaValue": "-783 -74"
+                                                                },
+                                                                {
+                                                                    "metaName": "io_ports",
+                                                                    "metadata": [
+                                                                        {
+                                                                            "metaName": "instance_shape"
+                                                                        },
+                                                                        {
+                                                                            "metaName": "preview_geometry"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "metaName": "io_onodes",
+                                                    "metadata": [
+                                                        {
+                                                            "metaName": "output",
+                                                            "metadata": [
+                                                                {
+                                                                    "metaName": "DisplayMode",
+                                                                    "metaType": "string",
+                                                                    "metaValue": "2"
+                                                                },
+                                                                {
+                                                                    "metaName": "LayoutPos",
+                                                                    "metaType": "string",
+                                                                    "metaValue": "1303.14 -85.0943"
+                                                                },
+                                                                {
+                                                                    "metaName": "io_ports",
+                                                                    "metadata": [
+                                                                        {
+                                                                            "metaName": "true_case"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "metaName": "_recentNode_",
+                                            "metaType": "string",
+                                            "metaValue": "BifrostGraph,Core::Object,set_property"
+                                        },
+                                        {
+                                            "metaName": "_recentNode_",
+                                            "metaType": "string",
+                                            "metaValue": "BifrostGraph,Geometry::Properties,set_geo_property"
+                                        },
+                                        {
+                                            "metaName": "_recentNode_",
+                                            "metaType": "string",
+                                            "metaValue": "BifrostGraph,Core::Logic,if"
+                                        },
+                                        {
+                                            "metaName": "_recentNode_",
+                                            "metaType": "string",
+                                            "metaValue": "BifrostGraph,Core::Logic,and"
+                                        },
+                                        {
+                                            "metaName": "_recentNode_",
+                                            "metaType": "string",
+                                            "metaValue": "BifrostGraph,Core::Logic,not"
+                                        },
+                                        {
+                                            "metaName": "ViewportRect",
+                                            "metaType": "string",
+                                            "metaValue": "-1149.07 -623.045 2818 1030.01"
+                                        }
+                                    ],
+                                    "ports": [
+                                        {
+                                            "portName": "instance_shape",
+                                            "portDirection": "input"
+                                        },
+                                        {
+                                            "portName": "true_case",
+                                            "portDirection": "output"
+                                        },
+                                        {
+                                            "portName": "preview_geometry",
+                                            "portDirection": "input"
+                                        }
+                                    ],
+                                    "compounds": [
+                                        {
+                                            "name": "is_selector_instance",
+                                            "uriImported": "stream:/bifrostGraphShape1",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "io_nodes",
+                                                    "metadata": [
+                                                        {
+                                                            "metaName": "io_inodes",
+                                                            "metadata": [
+                                                                {
+                                                                    "metaName": "input",
+                                                                    "metadata": [
+                                                                        {
+                                                                            "metaName": "DisplayMode",
+                                                                            "metaType": "string",
+                                                                            "metaValue": "2"
+                                                                        },
+                                                                        {
+                                                                            "metaName": "LayoutPos",
+                                                                            "metaType": "string",
+                                                                            "metaValue": "10 34"
+                                                                        },
+                                                                        {
+                                                                            "metaName": "io_ports",
+                                                                            "metadata": [
+                                                                                {
+                                                                                    "metaName": "geometry"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "metaName": "io_onodes",
+                                                            "metadata": [
+                                                                {
+                                                                    "metaName": "output",
+                                                                    "metadata": [
+                                                                        {
+                                                                            "metaName": "DisplayMode",
+                                                                            "metaType": "string",
+                                                                            "metaValue": "2"
+                                                                        },
+                                                                        {
+                                                                            "metaName": "LayoutPos",
+                                                                            "metaType": "string",
+                                                                            "metaValue": "925 95"
+                                                                        },
+                                                                        {
+                                                                            "metaName": "io_ports",
+                                                                            "metadata": [
+                                                                                {
+                                                                                    "metaName": "output"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "metaName": "ViewportRect",
+                                                    "metaType": "string",
+                                                    "metaValue": "-102.106 -30 1365.21 499"
+                                                }
+                                            ],
+                                            "ports": [
+                                                {
+                                                    "portName": "geometry",
+                                                    "portDirection": "input"
+                                                },
+                                                {
+                                                    "portName": "output",
+                                                    "portDirection": "output"
+                                                }
+                                            ],
+                                            "compoundNodes": [
+                                                {
+                                                    "nodeName": "equal",
+                                                    "nodeType": "Core::Logic::equal",
+                                                    "metadata": [
+                                                        {
+                                                            "metaName": "DisplayMode",
+                                                            "metaType": "string",
+                                                            "metaValue": "2"
+                                                        },
+                                                        {
+                                                            "metaName": "LayoutPos",
+                                                            "metaType": "string",
+                                                            "metaValue": "620 95"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "nodeName": "get_property2",
+                                                    "nodeType": "Core::Object::get_property",
+                                                    "metadata": [
+                                                        {
+                                                            "metaName": "DisplayMode",
+                                                            "metaType": "string",
+                                                            "metaValue": "2"
+                                                        },
+                                                        {
+                                                            "metaName": "LayoutPos",
+                                                            "metaType": "string",
+                                                            "metaValue": "315 10"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "nodeName": "value",
+                                                    "valueType": "string",
+                                                    "metadata": [
+                                                        {
+                                                            "metaName": "DisplayMode",
+                                                            "metaType": "string",
+                                                            "metaValue": "2"
+                                                        },
+                                                        {
+                                                            "metaName": "valuenode_defaultvalue",
+                                                            "metaType": "string",
+                                                            "metaValue": "selector_instance"
+                                                        },
+                                                        {
+                                                            "metaName": "LayoutPos",
+                                                            "metaType": "string",
+                                                            "metaValue": "315 253"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "connections": [
+                                                {
+                                                    "source": "get_property2.value",
+                                                    "target": "equal.first"
+                                                },
+                                                {
+                                                    "source": "value.output",
+                                                    "target": "equal.second"
+                                                },
+                                                {
+                                                    "source": ".geometry",
+                                                    "target": "get_property2.object"
+                                                },
+                                                {
+                                                    "source": "equal.output",
+                                                    "target": ".output"
+                                                }
+                                            ],
+                                            "values": [
+                                                {
+                                                    "valueName": "equal.second",
+                                                    "valueType": "string",
+                                                    "value": "selector_instance"
+                                                },
+                                                {
+                                                    "valueName": "get_property2.default_and_type",
+                                                    "valueType": "string",
+                                                    "value": ""
+                                                },
+                                                {
+                                                    "valueName": "get_property2.key",
+                                                    "valueType": "string",
+                                                    "value": "instance_shape_type"
+                                                },
+                                                {
+                                                    "valueName": "value.value",
+                                                    "valueType": "string",
+                                                    "value": "selector_instance"
+                                                }
+                                            ],
+                                            "reservedNodeNames": [
+                                                {
+                                                    "name": "input"
+                                                },
+                                                {
+                                                    "name": "output"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "compoundNodes": [
+                                        {
+                                            "nodeName": "is_selector_instance",
+                                            "nodeType": "is_selector_instance",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "DisplayMode",
+                                                    "metaType": "string",
+                                                    "metaValue": "2"
+                                                },
+                                                {
+                                                    "metaName": "LayoutPos",
+                                                    "metaType": "string",
+                                                    "metaValue": "-217.477 -510.31"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nodeName": "is_empty",
+                                            "nodeType": "Core::Object::is_empty",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "DisplayMode",
+                                                    "metaType": "string",
+                                                    "metaValue": "2"
+                                                },
+                                                {
+                                                    "metaName": "LayoutPos",
+                                                    "metaType": "string",
+                                                    "metaValue": "-216.5 -254"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nodeName": "not",
+                                            "nodeType": "Core::Logic::not",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "DisplayMode",
+                                                    "metaType": "string",
+                                                    "metaValue": "2"
+                                                },
+                                                {
+                                                    "metaName": "LayoutPos",
+                                                    "metaType": "string",
+                                                    "metaValue": "43.5 -278"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nodeName": "not1",
+                                            "nodeType": "Core::Logic::not",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "DisplayMode",
+                                                    "metaType": "string",
+                                                    "metaValue": "2"
+                                                },
+                                                {
+                                                    "metaName": "LayoutPos",
+                                                    "metaType": "string",
+                                                    "metaValue": "37.5 -507"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nodeName": "not_instance_selector_and_has_preview_geometry",
+                                            "nodeType": "Core::Logic::and",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "DisplayMode",
+                                                    "metaType": "string",
+                                                    "metaValue": "2"
+                                                },
+                                                {
+                                                    "metaName": "LayoutPos",
+                                                    "metaType": "string",
+                                                    "metaValue": "354.5 -408"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nodeName": "if",
+                                            "nodeType": "Core::Logic::if",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "DisplayMode",
+                                                    "metaType": "string",
+                                                    "metaValue": "2"
+                                                },
+                                                {
+                                                    "metaName": "LayoutPos",
+                                                    "metaType": "string",
+                                                    "metaValue": "670.732 -332.319"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nodeName": "set_property",
+                                            "nodeType": "Core::Object::set_property",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "DisplayMode",
+                                                    "metaType": "string",
+                                                    "metaValue": "2"
+                                                },
+                                                {
+                                                    "metaName": "LayoutPos",
+                                                    "metaType": "string",
+                                                    "metaValue": "22.9921 63.6859"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "connections": [
+                                        {
+                                            "source": ".instance_shape",
+                                            "target": "is_selector_instance.geometry"
+                                        },
+                                        {
+                                            "source": ".preview_geometry",
+                                            "target": "is_empty.object"
+                                        },
+                                        {
+                                            "source": "is_empty.empty",
+                                            "target": "not.value"
+                                        },
+                                        {
+                                            "source": "is_selector_instance.output",
+                                            "target": "not1.value"
+                                        },
+                                        {
+                                            "source": "not1.output",
+                                            "target": "not_instance_selector_and_has_preview_geometry.first"
+                                        },
+                                        {
+                                            "source": "not.output",
+                                            "target": "not_instance_selector_and_has_preview_geometry.second"
+                                        },
+                                        {
+                                            "source": "not_instance_selector_and_has_preview_geometry.output",
+                                            "target": "if.condition"
+                                        },
+                                        {
+                                            "source": "set_property.out_object",
+                                            "target": "if.true_case"
+                                        },
+                                        {
+                                            "source": ".instance_shape",
+                                            "target": "set_property.object"
+                                        },
+                                        {
+                                            "source": ".preview_geometry",
+                                            "target": "set_property.value"
+                                        },
+                                        {
+                                            "source": ".instance_shape",
+                                            "target": "if.false_case"
+                                        },
+                                        {
+                                            "source": "if.output",
+                                            "target": ".true_case"
+                                        }
+                                    ],
+                                    "values": [
+                                        {
+                                            "valueName": "set_property.key",
+                                            "valueType": "string",
+                                            "value": "preview_geometry"
+                                        }
+                                    ],
+                                    "reservedNodeNames": [
+                                        {
+                                            "name": "input"
+                                        },
+                                        {
+                                            "name": "output"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "compoundNodes": [
+                                {
+                                    "nodeName": "if",
+                                    "nodeType": "Core::Logic::if",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "1533.85 -137.796"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeName": "has_property",
+                                    "nodeType": "Core::Object::has_property",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "322.187 -283.301"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeName": "geo_instance",
+                                    "nodeType": "Geometry::Instances::geo_instance",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "1230 73"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeName": "get_preview_geometry",
+                                    "nodeType": "get_preview_geometry",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "566.092 145.26"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeName": "compound",
+                                    "nodeType": "compound",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "931.737 -91.7755"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "connections": [
+                                {
+                                    "source": "if.output",
+                                    "target": ".instance_shapes"
+                                },
+                                {
+                                    "source": "has_property.found",
+                                    "target": "if.condition"
+                                },
+                                {
+                                    "source": "geo_instance.geo_instance",
+                                    "target": "if.false_case"
+                                },
+                                {
+                                    "source": "get_preview_geometry.output",
+                                    "target": "geo_instance.preview_geometry"
+                                },
+                                {
+                                    "source": ".geometry",
+                                    "target": "has_property.object"
+                                },
+                                {
+                                    "source": ".geometry",
+                                    "target": "geo_instance.geometry"
+                                },
+                                {
+                                    "source": ".preview_geometries",
+                                    "target": "get_preview_geometry.preview_geometries"
+                                },
+                                {
+                                    "source": ".geometry",
+                                    "target": "compound.instance_shape"
+                                },
+                                {
+                                    "source": "compound.true_case",
+                                    "target": "if.true_case"
+                                },
+                                {
+                                    "source": "get_preview_geometry.output",
+                                    "target": "compound.preview_geometry"
+                                },
+                                {
+                                    "source": ".current_index",
+                                    "target": "get_preview_geometry.index"
+                                }
+                            ],
+                            "values": [
+                                {
+                                    "valueName": "has_property.key",
+                                    "valueType": "string",
+                                    "value": "instance_shape_type"
+                                },
+                                {
+                                    "valueName": "geo_instance.name",
+                                    "valueType": "string",
+                                    "value": ""
+                                },
+                                {
+                                    "valueName": "geo_instance.transform",
+                                    "valueType": "Math::float4x4",
+                                    "value": {
+                                        "c0": {
+                                            "x": "1f",
+                                            "y": "0f",
+                                            "z": "0f",
+                                            "w": "0f"
+                                        },
+                                        "c1": {
+                                            "x": "0f",
+                                            "y": "1f",
+                                            "z": "0f",
+                                            "w": "0f"
+                                        },
+                                        "c2": {
+                                            "x": "0f",
+                                            "y": "0f",
+                                            "z": "1f",
+                                            "w": "0f"
+                                        },
+                                        "c3": {
+                                            "x": "0f",
+                                            "y": "0f",
+                                            "z": "0f",
+                                            "w": "1f"
+                                        }
+                                    }
+                                },
+                                {
+                                    "valueName": "get_preview_geometry.index",
+                                    "valueType": "long",
+                                    "value": "0"
+                                }
+                            ],
+                            "reservedNodeNames": [
+                                {
+                                    "name": "input"
+                                },
+                                {
+                                    "name": "output"
+                                }
+                            ],
+                            "iterateCompound": {
+                                "ports": []
+                            }
+                        },
+                        {
+                            "name": "for_each_make_boundingBox",
+                            "uriImported": "stream:/bifrostGraphShape1",
+                            "metadata": [
+                                {
+                                    "metaName": "icon",
+                                    "metaType": "string",
+                                    "metaValue": "<NATIVE>../icons/LoopForEach.svg"
+                                },
+                                {
+                                    "metaName": "icon",
+                                    "metaType": "string",
+                                    "metaValue": "<NATIVE>../icons/LoopForEach.svg"
+                                },
+                                {
+                                    "metaName": "_recentNode_",
+                                    "metaType": "string",
+                                    "metaValue": "BifrostGraph,Core::Logic,if"
+                                },
+                                {
+                                    "metaName": "_recentNode_",
+                                    "metaType": "string",
+                                    "metaValue": "BifrostGraph,Core::Math,add"
+                                },
+                                {
+                                    "metaName": "_recentNode_",
+                                    "metaType": "string",
+                                    "metaValue": "BifrostGraph,Core::Constants,float"
+                                },
+                                {
+                                    "metaName": "_recentNode_",
+                                    "metaType": "string",
+                                    "metaValue": "BifrostGraph,Core::Math,divide"
+                                },
+                                {
+                                    "metaName": "_recentNode_",
+                                    "metaType": "string",
+                                    "metaValue": "BifrostGraph,Core::Object,erase_property"
+                                },
+                                {
+                                    "metaName": "io_nodes",
+                                    "metadata": [
+                                        {
+                                            "metaName": "io_inodes",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "input",
+                                                    "metadata": [
+                                                        {
+                                                            "metaName": "DisplayMode",
+                                                            "metaType": "string",
+                                                            "metaValue": "2"
+                                                        },
+                                                        {
+                                                            "metaName": "LayoutPos",
+                                                            "metaType": "string",
+                                                            "metaValue": "255.498 162.183"
+                                                        },
+                                                        {
+                                                            "metaName": "io_ports",
+                                                            "metadata": [
+                                                                {
+                                                                    "metaName": "current_index"
+                                                                },
+                                                                {
+                                                                    "metaName": "instance_shapes"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "metaName": "io_onodes",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "output",
+                                                    "metadata": [
+                                                        {
+                                                            "metaName": "DisplayMode",
+                                                            "metaType": "string",
+                                                            "metaValue": "2"
+                                                        },
+                                                        {
+                                                            "metaName": "LayoutPos",
+                                                            "metaType": "string",
+                                                            "metaValue": "3805.81 118.055"
+                                                        },
+                                                        {
+                                                            "metaName": "io_ports",
+                                                            "metadata": [
+                                                                {
+                                                                    "metaName": "instance_shapes1"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "metaName": "ViewportRect",
+                                    "metaType": "string",
+                                    "metaValue": "-274.352 176.379 4636.36 1327.47"
+                                }
+                            ],
+                            "ports": [
+                                {
+                                    "portName": "current_index",
+                                    "portDirection": "input",
+                                    "portType": "long",
+                                    "portIterationCounter": "true"
+                                },
+                                {
+                                    "portName": "instance_shapes",
+                                    "portDirection": "input",
+                                    "portIterationTarget": "true"
+                                },
+                                {
+                                    "portName": "instance_shapes1",
+                                    "portDirection": "output",
+                                    "portIterationTarget": "true"
+                                }
+                            ],
+                            "compounds": [
+                                {
+                                    "name": "create_bounding_box",
+                                    "uriImported": "stream:/bifrostGraphShape1",
+                                    "metadata": [
+                                        {
+                                            "metaName": "io_nodes",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "io_inodes",
+                                                    "metadata": [
+                                                        {
+                                                            "metaName": "input",
+                                                            "metadata": [
+                                                                {
+                                                                    "metaName": "io_ports",
+                                                                    "metadata": [
+                                                                        {
+                                                                            "metaName": "geometry"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "metaName": "io_onodes",
+                                                    "metadata": [
+                                                        {
+                                                            "metaName": "output",
+                                                            "metadata": [
+                                                                {
+                                                                    "metaName": "io_ports",
+                                                                    "metadata": [
+                                                                        {
+                                                                            "metaName": "cube_mesh"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "ports": [
+                                        {
+                                            "portName": "geometry",
+                                            "portDirection": "input",
+                                            "portType": "Object"
+                                        },
+                                        {
+                                            "portName": "cube_mesh",
+                                            "portDirection": "output",
+                                            "portType": "Object"
+                                        }
+                                    ],
+                                    "compoundNodes": [
+                                        {
+                                            "nodeName": "absolute_value",
+                                            "nodeType": "Core::Math::absolute_value",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "DisplayMode",
+                                                    "metaType": "string",
+                                                    "metaValue": "2"
+                                                },
+                                                {
+                                                    "metaName": "LayoutPos",
+                                                    "metaType": "string",
+                                                    "metaValue": "2145 246"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nodeName": "add",
+                                            "nodeType": "Core::Math::add",
+                                            "multiInPortNames": [
+                                                "min_bound",
+                                                "max_bound"
+                                            ],
+                                            "metadata": [
+                                                {
+                                                    "metaName": "DisplayMode",
+                                                    "metaType": "string",
+                                                    "metaValue": "2"
+                                                },
+                                                {
+                                                    "metaName": "LayoutPos",
+                                                    "metaType": "string",
+                                                    "metaValue": "2145 441"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nodeName": "array_bounds",
+                                            "nodeType": "Core::Array::array_bounds",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "DisplayMode",
+                                                    "metaType": "string",
+                                                    "metaValue": "2"
+                                                },
+                                                {
+                                                    "metaName": "LayoutPos",
+                                                    "metaType": "string",
+                                                    "metaValue": "1535 236"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nodeName": "create_mesh_cube1",
+                                            "nodeType": "Modeling::Primitive::create_mesh_cube",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "DisplayMode",
+                                                    "metaType": "string",
+                                                    "metaValue": "2"
+                                                },
+                                                {
+                                                    "metaName": "LayoutPos",
+                                                    "metaType": "string",
+                                                    "metaValue": "2755 424"
+                                                },
+                                                {
+                                                    "metaName": "PortExpandedState",
+                                                    "metadata": [
+                                                        {
+                                                            "metaName": "Dimensions",
+                                                            "metaType": "string",
+                                                            "metaValue": "1"
+                                                        },
+                                                        {
+                                                            "metaName": "Transform",
+                                                            "metaType": "string",
+                                                            "metaValue": "1"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nodeName": "divide",
+                                            "nodeType": "Core::Math::divide",
+                                            "multiInPortNames": [
+                                                "output1",
+                                                "output2"
+                                            ],
+                                            "metadata": [
+                                                {
+                                                    "metaName": "DisplayMode",
+                                                    "metaType": "string",
+                                                    "metaValue": "2"
+                                                },
+                                                {
+                                                    "metaName": "LayoutPos",
+                                                    "metaType": "string",
+                                                    "metaValue": "2450 559"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nodeName": "get_point_position",
+                                            "nodeType": "Geometry::Properties::get_point_position",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "DisplayMode",
+                                                    "metaType": "string",
+                                                    "metaValue": "2"
+                                                },
+                                                {
+                                                    "metaName": "LayoutPos",
+                                                    "metaType": "string",
+                                                    "metaValue": "1230 232"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nodeName": "subtract1",
+                                            "nodeType": "Core::Math::subtract",
+                                            "multiInPortNames": [
+                                                "min_bound",
+                                                "max_bound"
+                                            ],
+                                            "metadata": [
+                                                {
+                                                    "metaName": "DisplayMode",
+                                                    "metaType": "string",
+                                                    "metaValue": "2"
+                                                },
+                                                {
+                                                    "metaName": "LayoutPos",
+                                                    "metaType": "string",
+                                                    "metaValue": "1840 133"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nodeName": "value",
+                                            "valueType": "float",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "DisplayMode",
+                                                    "metaType": "string",
+                                                    "metaValue": "2"
+                                                },
+                                                {
+                                                    "metaName": "LayoutPos",
+                                                    "metaType": "string",
+                                                    "metaValue": "2145 684"
+                                                },
+                                                {
+                                                    "metaName": "valuenode_defaultvalue",
+                                                    "metaType": "string",
+                                                    "metaValue": "2"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nodeName": "vector3_to_scalar1",
+                                            "nodeType": "Core::Conversion::vector3_to_scalar",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "DisplayMode",
+                                                    "metaType": "string",
+                                                    "metaValue": "2"
+                                                },
+                                                {
+                                                    "metaName": "LayoutPos",
+                                                    "metaType": "string",
+                                                    "metaValue": "2450 316"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "connections": [
+                                        {
+                                            "source": "absolute_value.absolute_value",
+                                            "target": "vector3_to_scalar1.vector3"
+                                        },
+                                        {
+                                            "source": "add.output",
+                                            "target": "divide.first.output1"
+                                        },
+                                        {
+                                            "source": "array_bounds.min_bound",
+                                            "target": "add.first.min_bound"
+                                        },
+                                        {
+                                            "source": "array_bounds.min_bound",
+                                            "target": "subtract1.first.min_bound"
+                                        },
+                                        {
+                                            "source": "array_bounds.max_bound",
+                                            "target": "add.first.max_bound"
+                                        },
+                                        {
+                                            "source": "array_bounds.max_bound",
+                                            "target": "subtract1.first.max_bound"
+                                        },
+                                        {
+                                            "source": "create_mesh_cube1.cube_mesh",
+                                            "target": ".cube_mesh"
+                                        },
+                                        {
+                                            "source": "divide.output",
+                                            "target": "create_mesh_cube1.position"
+                                        },
+                                        {
+                                            "source": "get_point_position.point_position",
+                                            "target": "array_bounds.array"
+                                        },
+                                        {
+                                            "source": "subtract1.output",
+                                            "target": "absolute_value.value"
+                                        },
+                                        {
+                                            "source": "value.output",
+                                            "target": "divide.first.output2"
+                                        },
+                                        {
+                                            "source": "vector3_to_scalar1.x",
+                                            "target": "create_mesh_cube1.width"
+                                        },
+                                        {
+                                            "source": "vector3_to_scalar1.y",
+                                            "target": "create_mesh_cube1.height"
+                                        },
+                                        {
+                                            "source": "vector3_to_scalar1.z",
+                                            "target": "create_mesh_cube1.length"
+                                        },
+                                        {
+                                            "source": ".geometry",
+                                            "target": "get_point_position.geometry"
+                                        }
+                                    ],
+                                    "values": [
+                                        {
+                                            "valueName": "create_mesh_cube1.length",
+                                            "valueType": "float",
+                                            "value": "1f"
+                                        },
+                                        {
+                                            "valueName": "create_mesh_cube1.width",
+                                            "valueType": "float",
+                                            "value": "1f"
+                                        },
+                                        {
+                                            "valueName": "create_mesh_cube1.height",
+                                            "valueType": "float",
+                                            "value": "1f"
+                                        },
+                                        {
+                                            "valueName": "create_mesh_cube1.position",
+                                            "valueType": "Math::float3",
+                                            "value": {
+                                                "x": "0f",
+                                                "y": "0f",
+                                                "z": "0f"
+                                            }
+                                        },
+                                        {
+                                            "valueName": "create_mesh_cube1.up_axis",
+                                            "valueType": "Math::float3",
+                                            "value": {
+                                                "x": "0f",
+                                                "y": "1f",
+                                                "z": "0f"
+                                            }
+                                        },
+                                        {
+                                            "valueName": "create_mesh_cube1.base_to_pivot",
+                                            "valueType": "bool",
+                                            "value": "false"
+                                        },
+                                        {
+                                            "valueName": "value.value",
+                                            "valueType": "float",
+                                            "value": "2f"
+                                        }
+                                    ],
+                                    "reservedNodeNames": [
+                                        {
+                                            "name": "input"
+                                        },
+                                        {
+                                            "name": "output"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "compoundNodes": [
+                                {
+                                    "nodeName": "set_instance_preview_geometry",
+                                    "nodeType": "Core::Object::set_property",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "2819.57 116.272"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeName": "get_property1",
+                                    "nodeType": "Core::Object::get_property",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "606.362 340.63"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeName": "if",
+                                    "nodeType": "Core::Logic::if",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "1338.34 303.778"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeName": "is_empty1",
+                                    "nodeType": "Core::Object::is_empty",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "1873.37 -139.489"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeName": "if1",
+                                    "nodeType": "Core::Logic::if",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "2503.82 244.337"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeName": "no_preview_default",
+                                    "nodeType": "Modeling::Primitive::create_mesh_cube",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "1865.96 294.273"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeName": "create_bounding_box",
+                                    "nodeType": "create_bounding_box",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "1650.68 564.621"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeName": "get_property",
+                                    "nodeType": "Core::Object::get_property",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "586.704 -105.526"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeName": "is_empty",
+                                    "nodeType": "Core::Object::is_empty",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "1092.52 -103.526"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeName": "get_property2",
+                                    "nodeType": "Core::Object::get_property",
+                                    "metadata": [
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "2290.5 1019.86"
+                                        },
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeName": "value",
+                                    "valueType": "string",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "2286.53 1272.1"
+                                        },
+                                        {
+                                            "metaName": "valuenode_defaultvalue",
+                                            "metaType": "string",
+                                            "metaValue": "selector_instance"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeName": "equal",
+                                    "nodeType": "Core::Logic::equal",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "2694.54 1221.69"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeName": "if2",
+                                    "nodeType": "Core::Logic::if",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "3383.8 325.815"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "connections": [
+                                {
+                                    "source": "set_instance_preview_geometry.out_object",
+                                    "target": "if2.false_case"
+                                },
+                                {
+                                    "source": "get_property1.value",
+                                    "target": "if.true_case"
+                                },
+                                {
+                                    "source": "if.output",
+                                    "target": "is_empty1.object"
+                                },
+                                {
+                                    "source": "if.output",
+                                    "target": "create_bounding_box.geometry"
+                                },
+                                {
+                                    "source": "is_empty1.empty",
+                                    "target": "if1.condition"
+                                },
+                                {
+                                    "source": "if1.output",
+                                    "target": "set_instance_preview_geometry.value"
+                                },
+                                {
+                                    "source": "no_preview_default.cube_mesh",
+                                    "target": "if1.true_case"
+                                },
+                                {
+                                    "source": "create_bounding_box.cube_mesh",
+                                    "target": "if1.false_case"
+                                },
+                                {
+                                    "source": "get_property.value",
+                                    "target": "if.false_case"
+                                },
+                                {
+                                    "source": "get_property.value",
+                                    "target": "is_empty.object"
+                                },
+                                {
+                                    "source": "is_empty.empty",
+                                    "target": "if.condition"
+                                },
+                                {
+                                    "source": "get_property2.value",
+                                    "target": "equal.first"
+                                },
+                                {
+                                    "source": "value.output",
+                                    "target": "equal.second"
+                                },
+                                {
+                                    "source": "equal.output",
+                                    "target": "if2.condition"
+                                },
+                                {
+                                    "source": "if2.output",
+                                    "target": ".instance_shapes1"
+                                },
+                                {
+                                    "source": ".instance_shapes",
+                                    "target": "set_instance_preview_geometry.object"
+                                },
+                                {
+                                    "source": ".instance_shapes",
+                                    "target": "get_property1.object"
+                                },
+                                {
+                                    "source": ".instance_shapes",
+                                    "target": "get_property.object"
+                                },
+                                {
+                                    "source": ".instance_shapes",
+                                    "target": "get_property2.object"
+                                },
+                                {
+                                    "source": ".instance_shapes",
+                                    "target": "if2.true_case"
+                                }
+                            ],
+                            "values": [
+                                {
+                                    "valueName": "set_instance_preview_geometry.key",
+                                    "valueType": "string",
+                                    "value": "preview_geometry"
+                                },
+                                {
+                                    "valueName": "get_property1.default_and_type",
+                                    "valueType": "Object",
+                                    "value": {}
+                                },
+                                {
+                                    "valueName": "get_property1.key",
+                                    "valueType": "string",
+                                    "value": "preview_geometry"
+                                },
+                                {
+                                    "valueName": "no_preview_default.length",
+                                    "valueType": "float",
+                                    "value": "0.100000001f"
+                                },
+                                {
+                                    "valueName": "no_preview_default.width",
+                                    "valueType": "float",
+                                    "value": "0.100000001f"
+                                },
+                                {
+                                    "valueName": "no_preview_default.height",
+                                    "valueType": "float",
+                                    "value": "0.100000001f"
+                                },
+                                {
+                                    "valueName": "no_preview_default.position",
+                                    "valueType": "Math::float3",
+                                    "value": {
+                                        "x": "0f",
+                                        "y": "0f",
+                                        "z": "0f"
+                                    }
+                                },
+                                {
+                                    "valueName": "no_preview_default.up_axis",
+                                    "valueType": "Math::float3",
+                                    "value": {
+                                        "x": "0f",
+                                        "y": "1f",
+                                        "z": "0f"
+                                    }
+                                },
+                                {
+                                    "valueName": "no_preview_default.base_to_pivot",
+                                    "valueType": "bool",
+                                    "value": "false"
+                                },
+                                {
+                                    "valueName": "create_bounding_box.geometry",
+                                    "valueType": "Object",
+                                    "value": {}
+                                },
+                                {
+                                    "valueName": "get_property.default_and_type",
+                                    "valueType": "Object",
+                                    "value": {}
+                                },
+                                {
+                                    "valueName": "get_property.key",
+                                    "valueType": "string",
+                                    "value": "render_geometry"
+                                },
+                                {
+                                    "valueName": "get_property2.default_and_type",
+                                    "valueType": "string",
+                                    "value": ""
+                                },
+                                {
+                                    "valueName": "get_property2.key",
+                                    "valueType": "string",
+                                    "value": "instance_shape_type"
+                                },
+                                {
+                                    "valueName": "value.value",
+                                    "valueType": "string",
+                                    "value": "selector_instance"
+                                },
+                                {
+                                    "valueName": "equal.second",
+                                    "valueType": "string",
+                                    "value": "selector_instance"
+                                }
+                            ],
+                            "reservedNodeNames": [
+                                {
+                                    "name": "input"
+                                },
+                                {
+                                    "name": "output"
+                                }
+                            ],
+                            "forEachCompound": {
+                                "ports": []
+                            }
+                        },
+                        {
+                            "name": "for_each_override_preview_to_render_geo",
+                            "uriImported": "stream:/bifrostGraphShape1",
+                            "metadata": [
+                                {
+                                    "metaName": "icon",
+                                    "metaType": "string",
+                                    "metaValue": "<NATIVE>../icons/LoopForEach.svg"
+                                },
+                                {
+                                    "metaName": "icon",
+                                    "metaType": "string",
+                                    "metaValue": "<NATIVE>../icons/LoopForEach.svg"
+                                },
+                                {
+                                    "metaName": "_recentNode_",
+                                    "metaType": "string",
+                                    "metaValue": "BifrostGraph,Core::Logic,not"
+                                },
+                                {
+                                    "metaName": "_recentNode_",
+                                    "metaType": "string",
+                                    "metaValue": "BifrostGraph,Geometry::Instances,flatten_instance_selection"
+                                },
+                                {
+                                    "metaName": "_recentNode_",
+                                    "metaType": "string",
+                                    "metaValue": "BifrostGraph,Core::Logic,equal"
+                                },
+                                {
+                                    "metaName": "_recentNode_",
+                                    "metaType": "string",
+                                    "metaValue": "BifrostGraph,Geometry::Properties,get_geo_property"
+                                },
+                                {
+                                    "metaName": "_recentNode_",
+                                    "metaType": "string",
+                                    "metaValue": "BifrostGraph,Modeling::Primitive,create_mesh_sphere"
+                                },
+                                {
+                                    "metaName": "io_nodes",
+                                    "metadata": [
+                                        {
+                                            "metaName": "io_inodes",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "input",
+                                                    "metadata": [
+                                                        {
+                                                            "metaName": "DisplayMode",
+                                                            "metaType": "string",
+                                                            "metaValue": "2"
+                                                        },
+                                                        {
+                                                            "metaName": "LayoutPos",
+                                                            "metaType": "string",
+                                                            "metaValue": "407.163 54.8291"
+                                                        },
+                                                        {
+                                                            "metaName": "io_ports",
+                                                            "metadata": [
+                                                                {
+                                                                    "metaName": "current_index"
+                                                                },
+                                                                {
+                                                                    "metaName": "instance_shapes"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "metaName": "io_onodes",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "output",
+                                                    "metadata": [
+                                                        {
+                                                            "metaName": "DisplayMode",
+                                                            "metaType": "string",
+                                                            "metaValue": "2"
+                                                        },
+                                                        {
+                                                            "metaName": "LayoutPos",
+                                                            "metaType": "string",
+                                                            "metaValue": "2685.51 59.3105"
+                                                        },
+                                                        {
+                                                            "metaName": "io_ports",
+                                                            "metadata": [
+                                                                {
+                                                                    "metaName": "instance_shapes1"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "metaName": "ViewportRect",
+                                    "metaType": "string",
+                                    "metaValue": "-368.221 -885.044 3245.02 1186.09"
+                                }
+                            ],
+                            "ports": [
+                                {
+                                    "portName": "current_index",
+                                    "portDirection": "input",
+                                    "portType": "long",
+                                    "portIterationCounter": "true"
+                                },
+                                {
+                                    "portName": "instance_shapes",
+                                    "portDirection": "input",
+                                    "portIterationTarget": "true"
+                                },
+                                {
+                                    "portName": "instance_shapes1",
+                                    "portDirection": "output",
+                                    "portIterationTarget": "true"
+                                }
+                            ],
+                            "compoundNodes": [
+                                {
+                                    "nodeName": "set_instance_preview_geometry",
+                                    "nodeType": "Core::Object::set_property",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "2176.64 46.0709"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeName": "get_property",
+                                    "nodeType": "Core::Object::get_property",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "857.344 -485.426"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeName": "is_empty",
+                                    "nodeType": "Core::Object::is_empty",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "1160.21 -287.72"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeName": "get_property1",
+                                    "nodeType": "Core::Object::get_property",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "850.801 -781.957"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeName": "if",
+                                    "nodeType": "Core::Logic::if",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "1825.99 -528.849"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeName": "not",
+                                    "nodeType": "Core::Logic::not",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "1478.77 -311.201"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "connections": [
+                                {
+                                    "source": "set_instance_preview_geometry.out_object",
+                                    "target": ".instance_shapes1"
+                                },
+                                {
+                                    "source": "get_property.value",
+                                    "target": "is_empty.object"
+                                },
+                                {
+                                    "source": "get_property.value",
+                                    "target": "if.true_case"
+                                },
+                                {
+                                    "source": "is_empty.empty",
+                                    "target": "not.value"
+                                },
+                                {
+                                    "source": "get_property1.value",
+                                    "target": "if.false_case"
+                                },
+                                {
+                                    "source": "if.output",
+                                    "target": "set_instance_preview_geometry.value"
+                                },
+                                {
+                                    "source": "not.output",
+                                    "target": "if.condition"
+                                },
+                                {
+                                    "source": ".instance_shapes",
+                                    "target": "set_instance_preview_geometry.object"
+                                },
+                                {
+                                    "source": ".instance_shapes",
+                                    "target": "get_property.object"
+                                },
+                                {
+                                    "source": ".instance_shapes",
+                                    "target": "get_property1.object"
+                                }
+                            ],
+                            "values": [
+                                {
+                                    "valueName": "set_instance_preview_geometry.key",
+                                    "valueType": "string",
+                                    "value": "preview_geometry"
+                                },
+                                {
+                                    "valueName": "get_property.default_and_type",
+                                    "valueType": "Object",
+                                    "value": {}
+                                },
+                                {
+                                    "valueName": "get_property.key",
+                                    "valueType": "string",
+                                    "value": "render_geometry"
+                                },
+                                {
+                                    "valueName": "get_property1.default_and_type",
+                                    "valueType": "Object",
+                                    "value": {}
+                                },
+                                {
+                                    "valueName": "get_property1.key",
+                                    "valueType": "string",
+                                    "value": "preview_geometry"
+                                }
+                            ],
+                            "reservedNodeNames": [
+                                {
+                                    "name": "input"
+                                },
+                                {
+                                    "name": "output"
+                                }
+                            ],
+                            "forEachCompound": {
+                                "ports": []
+                            }
+                        }
+                    ],
+                    "compoundNodes": [
+                        {
+                            "nodeName": "create_all_geo_instances",
+                            "nodeType": "create_all_geo_instances",
+                            "metadata": [
+                                {
+                                    "metaName": "DisplayMode",
+                                    "metaType": "string",
+                                    "metaValue": "2"
+                                },
+                                {
+                                    "metaName": "LayoutPos",
+                                    "metaType": "string",
+                                    "metaValue": "390.082 561.116"
+                                }
+                            ]
+                        },
+                        {
+                            "nodeName": "selector_instance",
+                            "nodeType": "Geometry::Instances::selector_instance",
+                            "fanInPortNames": {
+                                "instance_shapes": [
+                                    "output1"
+                                ]
+                            },
+                            "metadata": [
+                                {
+                                    "metaName": "DisplayMode",
+                                    "metaType": "string",
+                                    "metaValue": "2"
+                                },
+                                {
+                                    "metaName": "LayoutPos",
+                                    "metaType": "string",
+                                    "metaValue": "2092.42 175.731"
+                                },
+                                {
+                                    "metaName": "PortExpandedState",
+                                    "metadata": [
+                                        {
+                                            "metaName": "Instances",
+                                            "metaType": "string",
+                                            "metaValue": "1"
+                                        },
+                                        {
+                                            "metaName": "Selection Property",
+                                            "metaType": "string",
+                                            "metaValue": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "nodeName": "set_instance_shape",
+                            "nodeType": "Geometry::Instances::set_instance_shape",
+                            "metadata": [
+                                {
+                                    "metaName": "DisplayMode",
+                                    "metaType": "string",
+                                    "metaValue": "2"
+                                },
+                                {
+                                    "metaName": "LayoutPos",
+                                    "metaType": "string",
+                                    "metaValue": "2713.91 44.2404"
+                                }
+                            ]
+                        },
+                        {
+                            "nodeName": "for_each_make_boundingBox",
+                            "nodeType": "for_each_make_boundingBox",
+                            "metadata": [
+                                {
+                                    "metaName": "DisplayMode",
+                                    "metaType": "string",
+                                    "metaValue": "2"
+                                },
+                                {
+                                    "metaName": "LayoutPos",
+                                    "metaType": "string",
+                                    "metaValue": "660.253 41.5663"
+                                }
+                            ]
+                        },
+                        {
+                            "nodeName": "value1",
+                            "valueType": "Modeling::Points::CreateInstancesPreviewGeometry",
+                            "metadata": [
+                                {
+                                    "metaName": "DisplayMode",
+                                    "metaType": "string",
+                                    "metaValue": "0"
+                                },
+                                {
+                                    "metaName": "LayoutPos",
+                                    "metaType": "string",
+                                    "metaValue": "111.181 -343.388"
+                                },
+                                {
+                                    "metaName": "valuenode_defaultvalue",
+                                    "metaType": "string",
+                                    "metaValue": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "nodeName": "equal",
+                            "nodeType": "Core::Logic::equal",
+                            "metadata": [
+                                {
+                                    "metaName": "DisplayMode",
+                                    "metaType": "string",
+                                    "metaValue": "0"
+                                },
+                                {
+                                    "metaName": "LayoutPos",
+                                    "metaType": "string",
+                                    "metaValue": "375.926 -169.473"
+                                }
+                            ]
+                        },
+                        {
+                            "nodeName": "if2",
+                            "nodeType": "Core::Logic::if",
+                            "metadata": [
+                                {
+                                    "metaName": "DisplayMode",
+                                    "metaType": "string",
+                                    "metaValue": "1"
+                                },
+                                {
+                                    "metaName": "LayoutPos",
+                                    "metaType": "string",
+                                    "metaValue": "1000.41 -45.7672"
+                                }
+                            ]
+                        },
+                        {
+                            "nodeName": "equal1",
+                            "nodeType": "Core::Logic::equal",
+                            "metadata": [
+                                {
+                                    "metaName": "DisplayMode",
+                                    "metaType": "string",
+                                    "metaValue": "0"
+                                },
+                                {
+                                    "metaName": "LayoutPos",
+                                    "metaType": "string",
+                                    "metaValue": "1155.55 -541.413"
+                                }
+                            ]
+                        },
+                        {
+                            "nodeName": "value2",
+                            "valueType": "Modeling::Points::CreateInstancesPreviewGeometry",
+                            "metadata": [
+                                {
+                                    "metaName": "DisplayMode",
+                                    "metaType": "string",
+                                    "metaValue": "0"
+                                },
+                                {
+                                    "metaName": "LayoutPos",
+                                    "metaType": "string",
+                                    "metaValue": "691.598 -540.825"
+                                },
+                                {
+                                    "metaName": "valuenode_defaultvalue",
+                                    "metaType": "string",
+                                    "metaValue": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "nodeName": "if",
+                            "nodeType": "Core::Logic::if",
+                            "metadata": [
+                                {
+                                    "metaName": "LayoutPos",
+                                    "metaType": "string",
+                                    "metaValue": "1737.7 -158.461"
+                                },
+                                {
+                                    "metaName": "DisplayMode",
+                                    "metaType": "string",
+                                    "metaValue": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "nodeName": "for_each_override_preview_to_render_geo",
+                            "nodeType": "for_each_override_preview_to_render_geo",
+                            "metadata": [
+                                {
+                                    "metaName": "DisplayMode",
+                                    "metaType": "string",
+                                    "metaValue": "2"
+                                },
+                                {
+                                    "metaName": "LayoutPos",
+                                    "metaType": "string",
+                                    "metaValue": "1256.68 -259.005"
+                                }
+                            ]
+                        }
+                    ],
+                    "connections": [
+                        {
+                            "source": "create_all_geo_instances.instance_shapes",
+                            "target": "for_each_make_boundingBox.instance_shapes"
+                        },
+                        {
+                            "source": "create_all_geo_instances.instance_shapes",
+                            "target": "if2.false_case"
+                        },
+                        {
+                            "source": "selector_instance.selector_instance",
+                            "target": "set_instance_shape.instance_shape"
+                        },
+                        {
+                            "source": "set_instance_shape.instances",
+                            "target": ".instances"
+                        },
+                        {
+                            "source": "for_each_make_boundingBox.instance_shapes1",
+                            "target": "if2.true_case"
+                        },
+                        {
+                            "source": "value1.output",
+                            "target": "equal.first"
+                        },
+                        {
+                            "source": "equal.output",
+                            "target": "if2.condition"
+                        },
+                        {
+                            "source": "if2.output",
+                            "target": "for_each_override_preview_to_render_geo.instance_shapes"
+                        },
+                        {
+                            "source": "if2.output",
+                            "target": "if.false_case"
+                        },
+                        {
+                            "source": "equal1.output",
+                            "target": "if.condition"
+                        },
+                        {
+                            "source": "value2.output",
+                            "target": "equal1.first"
+                        },
+                        {
+                            "source": "if.output",
+                            "target": "selector_instance.instance_shapes.output1"
+                        },
+                        {
+                            "source": ".instance_geometries",
+                            "target": "create_all_geo_instances.geometry"
+                        },
+                        {
+                            "source": ".preview_geometries",
+                            "target": "create_all_geo_instances.preview_geometries"
+                        },
+                        {
+                            "source": ".instance_id_property",
+                            "target": "selector_instance.selector_property"
+                        },
+                        {
+                            "source": ".wrap_out_of_range",
+                            "target": "selector_instance.wrap_out_of_range"
+                        },
+                        {
+                            "source": ".preview_mode",
+                            "target": "equal.second"
+                        },
+                        {
+                            "source": ".preview_mode",
+                            "target": "equal1.second"
+                        },
+                        {
+                            "source": "for_each_override_preview_to_render_geo.instance_shapes1",
+                            "target": "if.true_case"
+                        },
+                        {
+                            "source": ".points",
+                            "target": "set_instance_shape.points"
+                        }
+                    ],
+                    "values": [
+                        {
+                            "valueName": "create_all_geo_instances.max_iterations",
+                            "valueType": "long",
+                            "value": "100000"
+                        },
+                        {
+                            "valueName": "selector_instance.selector_property",
+                            "valueType": "string",
+                            "value": "point_instance_id"
+                        },
+                        {
+                            "valueName": "selector_instance.wrap_out_of_range",
+                            "valueType": "bool",
+                            "value": "true"
+                        },
+                        {
+                            "valueName": "selector_instance.name",
+                            "valueType": "string",
+                            "value": ""
+                        },
+                        {
+                            "valueName": "selector_instance.transform",
+                            "valueType": "Math::float4x4",
+                            "value": {
+                                "c0": {
+                                    "x": "1f",
+                                    "y": "0f",
+                                    "z": "0f",
+                                    "w": "0f"
+                                },
+                                "c1": {
+                                    "x": "0f",
+                                    "y": "1f",
+                                    "z": "0f",
+                                    "w": "0f"
+                                },
+                                "c2": {
+                                    "x": "0f",
+                                    "y": "0f",
+                                    "z": "1f",
+                                    "w": "0f"
+                                },
+                                "c3": {
+                                    "x": "0f",
+                                    "y": "0f",
+                                    "z": "0f",
+                                    "w": "1f"
+                                }
+                            }
+                        },
+                        {
+                            "valueName": "set_instance_shape.cleanup_unused_components",
+                            "valueType": "bool",
+                            "value": "true"
+                        },
+                        {
+                            "valueName": "value1.value",
+                            "valueType": "Modeling::Points::CreateInstancesPreviewGeometry",
+                            "value": "BoundingBox"
+                        },
+                        {
+                            "valueName": "value2.value",
+                            "valueType": "Modeling::Points::CreateInstancesPreviewGeometry",
+                            "value": "InstanceGeometry"
+                        }
+                    ],
+                    "reservedNodeNames": [
+                        {
+                            "name": "input"
+                        },
+                        {
+                            "name": "output"
+                        }
+                    ]
+                }
+            ],
+            "compoundNodes": [
+                {
+                    "nodeName": "Internal_set_instance_geometry",
+                    "nodeType": "Internal_set_instance_geometry",
+                    "fanInPortNames": {
+                        "instance_geometries": [
+                            "instance_geometries"
+                        ],
+                        "preview_geometries": [
+                            "preview_geometries"
+                        ]
+                    },
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "2"
+                        },
+                        {
+                            "metaName": "PortExpandedState",
+                            "metadata": [
+                                {
+                                    "metaName": "Selection",
+                                    "metaType": "string",
+                                    "metaValue": "1"
+                                },
+                                {
+                                    "metaName": "instance_geometries",
+                                    "metaType": "string",
+                                    "metaValue": "1"
+                                },
+                                {
+                                    "metaName": "preview_geometries",
+                                    "metaType": "string",
+                                    "metaValue": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "943.915 -53.2456"
+                        }
+                    ]
+                },
+                {
+                    "nodeName": "array_is_empty",
+                    "nodeType": "Core::Array::array_is_empty",
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "2"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "278.801 613.082"
+                        }
+                    ]
+                },
+                {
+                    "nodeName": "if1",
+                    "nodeType": "Core::Logic::if",
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "2"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "612.336 544.32"
+                        }
+                    ]
+                },
+                {
+                    "nodeName": "build_array",
+                    "nodeType": "Core::Array::build_array",
+                    "multiInPortNames": [
+                        "sphere_mesh"
+                    ],
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "2"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "327.944 776.654"
+                        }
+                    ]
+                },
+                {
+                    "nodeName": "cull_points",
+                    "nodeType": "Modeling::Points::cull_points",
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "2"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "1840 119"
+                        }
+                    ]
+                },
+                {
+                    "nodeName": "assign_material",
+                    "nodeType": "Rendering::Materials::assign_material",
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "2"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "477.604 -275.274"
+                        }
+                    ]
+                },
+                {
+                    "nodeName": "subtract",
+                    "nodeType": "Core::Math::subtract",
+                    "multiInPortNames": [
+                        "output1",
+                        "weights"
+                    ],
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "0"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "1556.7 -15.7502"
+                        }
+                    ]
+                },
+                {
+                    "nodeName": "value",
+                    "valueType": "float",
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "0"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "1274.37 -167.738"
+                        },
+                        {
+                            "metaName": "valuenode_defaultvalue",
+                            "metaType": "string",
+                            "metaValue": "1"
+                        }
+                    ]
+                },
+                {
+                    "nodeName": "interpret_auto_port_as_scalar",
+                    "nodeType": "Geometry::Common::interpret_auto_port_as_scalar",
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "0"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "1277.79 -268.067"
+                        }
+                    ]
+                },
+                {
+                    "nodeName": "if_weights",
+                    "nodeType": "Core::Logic::if",
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "2"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "2145 157"
+                        }
+                    ]
+                },
+                {
+                    "nodeName": "terminal",
+                    "nodeType": "Core::Graph::terminal",
+                    "fanInPortNames": {
+                        "final": [],
+                        "proxy": [
+                            "output"
+                        ],
+                        "diagnostic": []
+                    },
+                    "terminalStates": [
+                        {
+                            "name": "Core::Graph::terminal::final",
+                            "enabled": "false"
+                        },
+                        {
+                            "name": "Core::Graph::terminal::proxy",
+                            "enabled": "true"
+                        },
+                        {
+                            "name": "Core::Graph::terminal::diagnostic",
+                            "enabled": "false"
+                        }
+                    ],
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "2"
+                        },
+                        {
+                            "metaName": "PortExpandedState",
+                            "metadata": [
+                                {
+                                    "metaName": "diagnostic",
+                                    "metaType": "string",
+                                    "metaValue": "1"
+                                },
+                                {
+                                    "metaName": "proxy",
+                                    "metaType": "string",
+                                    "metaValue": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "2659.87 485.891"
+                        }
+                    ]
+                },
+                {
+                    "nodeName": "pp_default_diagnostic_cube",
+                    "nodeType": "AB::PP::pp_default_diagnostic_cube",
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "2"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "-24.2399 805.609"
+                        }
+                    ]
+                }
+            ],
+            "connections": [
+                {
+                    "source": "Internal_set_instance_geometry.instances",
+                    "target": "interpret_auto_port_as_scalar.geometry"
+                },
+                {
+                    "source": "array_is_empty.empty",
+                    "target": "if1.condition"
+                },
+                {
+                    "source": "if1.output",
+                    "target": "Internal_set_instance_geometry.instance_geometries.instance_geometries"
+                },
+                {
+                    "source": "build_array.array",
+                    "target": "if1.true_case"
+                },
+                {
+                    "source": "cull_points.remaining_points",
+                    "target": "if_weights.true_case"
+                },
+                {
+                    "source": "assign_material.out_geometry",
+                    "target": "Internal_set_instance_geometry.points"
+                },
+                {
+                    "source": "subtract.output",
+                    "target": "cull_points.weights"
+                },
+                {
+                    "source": "value.output",
+                    "target": "subtract.first.output1"
+                },
+                {
+                    "source": "interpret_auto_port_as_scalar.data",
+                    "target": "subtract.first.weights"
+                },
+                {
+                    "source": "interpret_auto_port_as_scalar.has_data",
+                    "target": "if_weights.condition"
+                },
+                {
+                    "source": "if_weights.output",
+                    "target": ".instances"
+                },
+                {
+                    "source": ".pp_in",
+                    "target": "assign_material.geometry"
+                },
+                {
+                    "source": ".mask_weights",
+                    "target": "interpret_auto_port_as_scalar.interpreted_scalar_port"
+                },
+                {
+                    "source": ".instance_geometries",
+                    "target": "array_is_empty.array"
+                },
+                {
+                    "source": ".instance_geometries",
+                    "target": "if1.false_case"
+                },
+                {
+                    "source": ".preview_mode",
+                    "target": "Internal_set_instance_geometry.preview_mode"
+                },
+                {
+                    "source": ".preview_geometries",
+                    "target": "Internal_set_instance_geometry.preview_geometries.preview_geometries"
+                },
+                {
+                    "source": "Internal_set_instance_geometry.instances",
+                    "target": "cull_points.points"
+                },
+                {
+                    "source": "Internal_set_instance_geometry.instances",
+                    "target": "if_weights.false_case"
+                },
+                {
+                    "source": "if_weights.output",
+                    "target": "terminal.proxy.output"
+                },
+                {
+                    "source": "pp_default_diagnostic_cube.out_geometry",
+                    "target": "build_array.first.sphere_mesh"
+                }
+            ],
+            "values": [
+                {
+                    "valueName": "Internal_set_instance_geometry.points",
+                    "valueType": "Object",
+                    "value": {}
+                },
+                {
+                    "valueName": "Internal_set_instance_geometry.instance_id_property",
+                    "valueType": "string",
+                    "value": "point_instance_id"
+                },
+                {
+                    "valueName": "Internal_set_instance_geometry.wrap_out_of_range",
+                    "valueType": "bool",
+                    "value": "false"
+                },
+                {
+                    "valueName": "cull_points.probability",
+                    "valueType": "float",
+                    "value": "1f"
+                },
+                {
+                    "valueName": "cull_points.seed",
+                    "valueType": "long",
+                    "value": "25"
+                },
+                {
+                    "valueName": "cull_points.disable_by_selection",
+                    "valueType": "bool",
+                    "value": "true"
+                },
+                {
+                    "valueName": "cull_points.instance_property",
+                    "valueType": "string",
+                    "value": "point_instance_id"
+                },
+                {
+                    "valueName": "assign_material.geometry",
+                    "valueType": "Object",
+                    "value": {}
+                },
+                {
+                    "valueName": "assign_material.set_surface",
+                    "valueType": "bool",
+                    "value": "true"
+                },
+                {
+                    "valueName": "assign_material.set_displacement",
+                    "valueType": "bool",
+                    "value": "true"
+                },
+                {
+                    "valueName": "assign_material.set_volume",
+                    "valueType": "bool",
+                    "value": "true"
+                },
+                {
+                    "valueName": "value.value",
+                    "valueType": "float",
+                    "value": "1f"
+                },
+                {
+                    "valueName": "interpret_auto_port_as_scalar.default_value",
+                    "valueType": "float",
+                    "value": "1f"
+                },
+                {
+                    "valueName": "interpret_auto_port_as_scalar.geometry_component",
+                    "valueType": "string",
+                    "value": "point_component"
+                },
+                {
+                    "valueName": "interpret_auto_port_as_scalar.position_property",
+                    "valueType": "string",
+                    "value": "point_position"
+                },
+                {
+                    "valueName": "interpret_auto_port_as_scalar.indices",
+                    "valueType": "array<long>",
+                    "value": []
+                }
+            ],
+            "reservedNodeNames": [
+                {
+                    "name": "input"
+                },
+                {
+                    "name": "output"
+                }
+            ]
+        }
+    ]
+}

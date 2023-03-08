@@ -15,31 +15,6 @@
             "uriImported": "stream:/bifrostGraphShape1",
             "metadata": [
                 {
-                    "metaName": "_recentNode_",
-                    "metaType": "string",
-                    "metaValue": "BifrostGraph,Geometry::Properties,set_geo_property"
-                },
-                {
-                    "metaName": "_recentNode_",
-                    "metaType": "string",
-                    "metaValue": "BifrostGraph,Core::Logic,if"
-                },
-                {
-                    "metaName": "_recentNode_",
-                    "metaType": "string",
-                    "metaValue": "BifrostGraph,MJCG::Geometry::Properties,get_point_orientation"
-                },
-                {
-                    "metaName": "_recentNode_",
-                    "metaType": "string",
-                    "metaValue": "BifrostGraph,MJCG::Geometry::Properties,set_point_orientation"
-                },
-                {
-                    "metaName": "_recentNode_",
-                    "metaType": "string",
-                    "metaValue": "BifrostGraph,Geometry::Properties,get_point_position"
-                },
-                {
                     "metaName": "io_nodes",
                     "metadata": [
                         {
@@ -75,6 +50,38 @@
                                                 },
                                                 {
                                                     "metaName": "Stiffness"
+                                                },
+                                                {
+                                                    "metaName": "Start_time"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "metaName": "input1",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "-354.386 -594.842"
+                                        },
+                                        {
+                                            "metaName": "io_ports",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "Enable_Position"
+                                                },
+                                                {
+                                                    "metaName": "Enable_Rotation"
+                                                },
+                                                {
+                                                    "metaName": "Enable_Scale"
                                                 }
                                             ]
                                         }
@@ -150,7 +157,37 @@
                 {
                     "metaName": "ViewportRect",
                     "metaType": "string",
-                    "metaValue": "-627.418 -282.122 1347.36 771.352"
+                    "metaValue": "-1667.45 -589.239 1928.1 993.068"
+                },
+                {
+                    "metaName": "_recentNode_",
+                    "metaType": "string",
+                    "metaValue": "BifrostGraph,Core::Type_Conversion,to_float"
+                },
+                {
+                    "metaName": "_recentNode_",
+                    "metaType": "string",
+                    "metaValue": "BifrostGraph,Core::Constants,float"
+                },
+                {
+                    "metaName": "_recentNode_",
+                    "metaType": "string",
+                    "metaValue": "input"
+                },
+                {
+                    "metaName": "_recentNode_",
+                    "metaType": "string",
+                    "metaValue": "BifrostGraph,Geometry::Properties,set_geo_property"
+                },
+                {
+                    "metaName": "_recentNode_",
+                    "metaType": "string",
+                    "metaValue": "BifrostGraph,Core::Logic,if"
+                },
+                {
+                    "metaName": "LayoutPos",
+                    "metaType": "string",
+                    "metaValue": "-1884.4 -2080.39"
                 },
                 {
                     "metaName": "DisplayMode",
@@ -158,14 +195,9 @@
                     "metaValue": "2"
                 },
                 {
-                    "metaName": "LayoutPos",
-                    "metaType": "string",
-                    "metaValue": "-1781.46 -1599.03"
-                },
-                {
                     "metaName": "UILayout",
                     "metaType": "string",
-                    "metaValue": "{\n    \"NodeLayout\": {\n        \"hideUndeclaredPorts\": false,\n        \"items\": [\n            {\n                \"port\": \"pp_in\"\n            },\n            {\n                \"port\": \"Bypass\"\n            },\n            {\n                \"expanded\": false,\n                \"group\": \"Values\",\n                \"items\": [\n                    {\n                        \"port\": \"closeEnoughDistance\"\n                    },\n                    {\n                        \"port\": \"Maximum_Tranlational\"\n                    },\n                    {\n                        \"port\": \"Damping\"\n                    },\n                    {\n                        \"port\": \"Stiffness\"\n                    }\n                ]\n            }\n        ]\n    }\n}\n"
+                    "metaValue": "{\n    \"NodeLayout\": {\n        \"hideUndeclaredPorts\": false,\n        \"items\": [\n            {\n                \"port\": \"pp_in\"\n            },\n            {\n                \"port\": \"Bypass\"\n            },\n            {\n                \"expanded\": false,\n                \"group\": \"Values\",\n                \"items\": [\n                    {\n                        \"port\": \"closeEnoughDistance\"\n                    },\n                    {\n                        \"port\": \"Enable_Position\"\n                    },\n                    {\n                        \"port\": \"Enable_Rotation\"\n                    },\n                    {\n                        \"port\": \"Enable_Scale\"\n                    },\n                    {\n                        \"port\": \"Start_time\"\n                    },\n                    {\n                        \"port\": \"Maximum_Tranlational\"\n                    },\n                    {\n                        \"port\": \"Damping\"\n                    },\n                    {\n                        \"port\": \"Stiffness\"\n                    }\n                ]\n            }\n        ]\n    }\n}\n"
                 },
                 {
                     "metaName": "PortExpandedState",
@@ -209,7 +241,7 @@
                     "portName": "Damping",
                     "portDirection": "input",
                     "portType": "float",
-                    "portDefault": "0.25f",
+                    "portDefault": "0.5f",
                     "metadata": [
                         {
                             "metaName": "UiSoftMin",
@@ -248,8 +280,32 @@
                     ]
                 },
                 {
+                    "portName": "Enable_Position",
+                    "portDirection": "input",
+                    "portType": "bool",
+                    "portDefault": "true"
+                },
+                {
+                    "portName": "Enable_Rotation",
+                    "portDirection": "input",
+                    "portType": "bool",
+                    "portDefault": "true"
+                },
+                {
+                    "portName": "Enable_Scale",
+                    "portDirection": "input",
+                    "portType": "bool",
+                    "portDefault": "true"
+                },
+                {
                     "portName": "pp",
                     "portDirection": "output"
+                },
+                {
+                    "portName": "Start_time",
+                    "portDirection": "input",
+                    "portType": "long",
+                    "portDefault": "0"
                 }
             ],
             "compounds": [
@@ -257,31 +313,6 @@
                     "name": "spring",
                     "uriImported": "stream:/bifrostGraphShape1",
                     "metadata": [
-                        {
-                            "metaName": "_recentNode_",
-                            "metaType": "string",
-                            "metaValue": "BifrostGraph,Core::Math,multiply"
-                        },
-                        {
-                            "metaName": "_recentNode_",
-                            "metaType": "string",
-                            "metaValue": "BifrostGraph,Core::Math,quaternion_slerp"
-                        },
-                        {
-                            "metaName": "_recentNode_",
-                            "metaType": "string",
-                            "metaValue": "BifrostGraph,Core::Math,normalize"
-                        },
-                        {
-                            "metaName": "_recentNode_",
-                            "metaType": "string",
-                            "metaValue": "BifrostGraph,Simulation::Common,force_pull_port"
-                        },
-                        {
-                            "metaName": "_recentNode_",
-                            "metaType": "string",
-                            "metaValue": "BifrostGraph,Core::Math,length"
-                        },
                         {
                             "metaName": "io_nodes",
                             "metadata": [
@@ -297,6 +328,11 @@
                                                     "metaValue": "1"
                                                 },
                                                 {
+                                                    "metaName": "LayoutPos",
+                                                    "metaType": "string",
+                                                    "metaValue": "-2711.43 -1140.87"
+                                                },
+                                                {
                                                     "metaName": "io_ports",
                                                     "metadata": [
                                                         {
@@ -304,13 +340,11 @@
                                                         },
                                                         {
                                                             "metaName": "ball_feedback"
+                                                        },
+                                                        {
+                                                            "metaName": "start_time"
                                                         }
                                                     ]
-                                                },
-                                                {
-                                                    "metaName": "LayoutPos",
-                                                    "metaType": "string",
-                                                    "metaValue": "-2711.43 -1140.87"
                                                 }
                                             ]
                                         },
@@ -357,17 +391,17 @@
                                                     "metaValue": "2"
                                                 },
                                                 {
+                                                    "metaName": "LayoutPos",
+                                                    "metaType": "string",
+                                                    "metaValue": "758.595 -872.117"
+                                                },
+                                                {
                                                     "metaName": "io_ports",
                                                     "metadata": [
                                                         {
                                                             "metaName": "output"
                                                         }
                                                     ]
-                                                },
-                                                {
-                                                    "metaName": "LayoutPos",
-                                                    "metaType": "string",
-                                                    "metaValue": "758.595 -872.117"
                                                 }
                                             ]
                                         }
@@ -384,7 +418,9 @@
                                     "metaValue": "backdrop"
                                 },
                                 {
-                                    "metaName": "title"
+                                    "metaName": "title",
+                                    "metaType": "string",
+                                    "metaValue": ""
                                 },
                                 {
                                     "metaName": "color",
@@ -394,7 +430,7 @@
                                 {
                                     "metaName": "coords",
                                     "metaType": "string",
-                                    "metaValue": "-703.245 -1284.84 779.22 1250.95"
+                                    "metaValue": "-703.245 -1358.84 812.257 1455.03"
                                 }
                             ]
                         },
@@ -419,7 +455,7 @@
                                 {
                                     "metaName": "coords",
                                     "metaType": "string",
-                                    "metaValue": "-2660.09 -1470.68 817.316 829.058"
+                                    "metaValue": "-2660.09 -1544.68 817.316 903.058"
                                 }
                             ]
                         },
@@ -444,7 +480,7 @@
                                 {
                                     "metaName": "coords",
                                     "metaType": "string",
-                                    "metaValue": "-1354.52 -460.272 370.635 656.313"
+                                    "metaValue": "-1354.52 -534.272 370.635 730.313"
                                 }
                             ]
                         },
@@ -469,14 +505,39 @@
                                 {
                                     "metaName": "coords",
                                     "metaType": "string",
-                                    "metaValue": "-1360.43 -1384.81 382.301 862.314"
+                                    "metaValue": "-1360.43 -1458.81 382.301 936.314"
                                 }
                             ]
                         },
                         {
+                            "metaName": "_recentNode_",
+                            "metaType": "string",
+                            "metaValue": "BifrostGraph,Core::Logic,less_or_equal"
+                        },
+                        {
+                            "metaName": "_recentNode_",
+                            "metaType": "string",
+                            "metaValue": "BifrostGraph,Core::Math,multiply"
+                        },
+                        {
+                            "metaName": "_recentNode_",
+                            "metaType": "string",
+                            "metaValue": "BifrostGraph,Core::Math,quaternion_slerp"
+                        },
+                        {
+                            "metaName": "_recentNode_",
+                            "metaType": "string",
+                            "metaValue": "BifrostGraph,Core::Math,normalize"
+                        },
+                        {
+                            "metaName": "_recentNode_",
+                            "metaType": "string",
+                            "metaValue": "BifrostGraph,Simulation::Common,force_pull_port"
+                        },
+                        {
                             "metaName": "ViewportRect",
                             "metaType": "string",
-                            "metaValue": "-1559.15 -835.368 2162.71 1113.9"
+                            "metaValue": "-3379.44 -1803.27 1713.8 882.691"
                         }
                     ],
                     "ports": [
@@ -506,6 +567,10 @@
                         {
                             "portName": "output",
                             "portDirection": "output"
+                        },
+                        {
+                            "portName": "start_time",
+                            "portDirection": "input"
                         }
                     ],
                     "compounds": [
@@ -513,6 +578,36 @@
                             "name": "position_force",
                             "uriImported": "stream:/bifrostGraphShape1",
                             "metadata": [
+                                {
+                                    "metaName": "_recentNode_",
+                                    "metaType": "string",
+                                    "metaValue": "BifrostGraph,Core::Graph,pass"
+                                },
+                                {
+                                    "metaName": "_recentNode_",
+                                    "metaType": "string",
+                                    "metaValue": "BifrostGraph,Core::Math,negate"
+                                },
+                                {
+                                    "metaName": "_recentNode_",
+                                    "metaType": "string",
+                                    "metaValue": "BifrostGraph,Core::Math,clamp"
+                                },
+                                {
+                                    "metaName": "_recentNode_",
+                                    "metaType": "string",
+                                    "metaValue": "BifrostGraph,Core::Iterators,iterate"
+                                },
+                                {
+                                    "metaName": "_recentNode_",
+                                    "metaType": "string",
+                                    "metaValue": "BifrostGraph,Core::Math,add"
+                                },
+                                {
+                                    "metaName": "ViewportRect",
+                                    "metaType": "string",
+                                    "metaValue": "-1053.96 -376.08 2164.91 1115.03"
+                                },
                                 {
                                     "metaName": "io_nodes",
                                     "metadata": [
@@ -571,6 +666,11 @@
                                                             "metaValue": "2"
                                                         },
                                                         {
+                                                            "metaName": "LayoutPos",
+                                                            "metaType": "string",
+                                                            "metaValue": "1366.86 -36.988"
+                                                        },
+                                                        {
                                                             "metaName": "io_ports",
                                                             "metadata": [
                                                                 {
@@ -580,47 +680,12 @@
                                                                     "metaName": "vel1"
                                                                 }
                                                             ]
-                                                        },
-                                                        {
-                                                            "metaName": "LayoutPos",
-                                                            "metaType": "string",
-                                                            "metaValue": "1366.86 -36.988"
                                                         }
                                                     ]
                                                 }
                                             ]
                                         }
                                     ]
-                                },
-                                {
-                                    "metaName": "_recentNode_",
-                                    "metaType": "string",
-                                    "metaValue": "BifrostGraph,Core::Graph,pass"
-                                },
-                                {
-                                    "metaName": "_recentNode_",
-                                    "metaType": "string",
-                                    "metaValue": "BifrostGraph,Core::Math,negate"
-                                },
-                                {
-                                    "metaName": "_recentNode_",
-                                    "metaType": "string",
-                                    "metaValue": "BifrostGraph,Core::Math,clamp"
-                                },
-                                {
-                                    "metaName": "_recentNode_",
-                                    "metaType": "string",
-                                    "metaValue": "BifrostGraph,Core::Iterators,iterate"
-                                },
-                                {
-                                    "metaName": "_recentNode_",
-                                    "metaType": "string",
-                                    "metaValue": "BifrostGraph,Core::Math,add"
-                                },
-                                {
-                                    "metaName": "ViewportRect",
-                                    "metaType": "string",
-                                    "metaValue": "-1053.96 -376.08 2164.91 1115.03"
                                 }
                             ],
                             "ports": [
@@ -642,14 +707,6 @@
                                     "portType": "float"
                                 },
                                 {
-                                    "portName": "pos",
-                                    "portDirection": "output"
-                                },
-                                {
-                                    "portName": "vel1",
-                                    "portDirection": "output"
-                                },
-                                {
                                     "portName": "Damping",
                                     "portDirection": "input",
                                     "portType": "float"
@@ -657,6 +714,14 @@
                                 {
                                     "portName": "speedLimit",
                                     "portDirection": "input"
+                                },
+                                {
+                                    "portName": "pos",
+                                    "portDirection": "output"
+                                },
+                                {
+                                    "portName": "vel1",
+                                    "portDirection": "output"
                                 }
                             ],
                             "compoundNodes": [
@@ -871,6 +936,10 @@
                                     "target": "vector_length.vector"
                                 },
                                 {
+                                    "source": "mult_vel.output",
+                                    "target": "vel_add_acc.first.output2"
+                                },
+                                {
                                     "source": "multiply_k.output",
                                     "target": "mult_vel.first.result1"
                                 },
@@ -879,52 +948,20 @@
                                     "target": "mult_vel.first.result"
                                 },
                                 {
-                                    "source": ".target",
-                                    "target": "delta_x.first.target"
-                                },
-                                {
-                                    "source": ".vel",
-                                    "target": "multiply.first.vel"
-                                },
-                                {
-                                    "source": ".Damping",
-                                    "target": "multiply.first.Damping"
-                                },
-                                {
-                                    "source": "mult_vel.output",
-                                    "target": "vel_add_acc.first.output2"
-                                },
-                                {
-                                    "source": "multiply.output",
-                                    "target": "vel_add_acc.first.output1"
-                                },
-                                {
                                     "source": "vector_length.length",
                                     "target": "multiply_k.first.length"
-                                },
-                                {
-                                    "source": ".Stiffness",
-                                    "target": "multiply_k.first.Stiffness"
-                                },
-                                {
-                                    "source": ".position",
-                                    "target": "delta_x.first.ball"
-                                },
-                                {
-                                    "source": ".position",
-                                    "target": "add.first.position"
-                                },
-                                {
-                                    "source": "add.output",
-                                    "target": ".pos"
                                 },
                                 {
                                     "source": "vel_add_acc.output",
                                     "target": "clamp.value"
                                 },
                                 {
-                                    "source": "negate.negated",
-                                    "target": "clamp.min"
+                                    "source": "multiply.output",
+                                    "target": "vel_add_acc.first.output1"
+                                },
+                                {
+                                    "source": "add.output",
+                                    "target": ".pos"
                                 },
                                 {
                                     "source": "clamp.clamped",
@@ -935,8 +972,8 @@
                                     "target": ".vel1"
                                 },
                                 {
-                                    "source": ".speedLimit",
-                                    "target": "pass.input"
+                                    "source": "negate.negated",
+                                    "target": "clamp.min"
                                 },
                                 {
                                     "source": "pass.output",
@@ -945,6 +982,34 @@
                                 {
                                     "source": "pass.output",
                                     "target": "negate.value"
+                                },
+                                {
+                                    "source": ".position",
+                                    "target": "delta_x.first.ball"
+                                },
+                                {
+                                    "source": ".position",
+                                    "target": "add.first.position"
+                                },
+                                {
+                                    "source": ".target",
+                                    "target": "delta_x.first.target"
+                                },
+                                {
+                                    "source": ".vel",
+                                    "target": "multiply.first.vel"
+                                },
+                                {
+                                    "source": ".Stiffness",
+                                    "target": "multiply_k.first.Stiffness"
+                                },
+                                {
+                                    "source": ".Damping",
+                                    "target": "multiply.first.Damping"
+                                },
+                                {
+                                    "source": ".speedLimit",
+                                    "target": "pass.input"
                                 }
                             ],
                             "values": [],
@@ -958,7 +1023,7 @@
                             ]
                         },
                         {
-                            "name": "scale_force1",
+                            "name": "scale_force",
                             "uriImported": "stream:/bifrostGraphShape1",
                             "metadata": [
                                 {
@@ -985,6 +1050,11 @@
                                     "metaName": "_recentNode_",
                                     "metaType": "string",
                                     "metaValue": "BifrostGraph,User::Compounds,multiply_constant"
+                                },
+                                {
+                                    "metaName": "ViewportRect",
+                                    "metaType": "string",
+                                    "metaValue": "-548.451 -339.638 2052.24 1057"
                                 },
                                 {
                                     "metaName": "io_nodes",
@@ -1064,11 +1134,6 @@
                                             ]
                                         }
                                     ]
-                                },
-                                {
-                                    "metaName": "ViewportRect",
-                                    "metaType": "string",
-                                    "metaValue": "-548.451 -339.638 2052.24 1057"
                                 }
                             ],
                             "ports": [
@@ -1095,16 +1160,16 @@
                                     "portType": "float"
                                 },
                                 {
+                                    "portName": "speedLimit",
+                                    "portDirection": "input"
+                                },
+                                {
                                     "portName": "scale1",
                                     "portDirection": "output"
                                 },
                                 {
                                     "portName": "vel1",
                                     "portDirection": "output"
-                                },
-                                {
-                                    "portName": "speedLimit",
-                                    "portDirection": "input"
                                 }
                             ],
                             "compoundNodes": [
@@ -1335,12 +1400,36 @@
                                     "target": "multiply_k.first.length"
                                 },
                                 {
+                                    "source": "vel_add_acc.output",
+                                    "target": "clamp.value"
+                                },
+                                {
                                     "source": "multiply.output",
                                     "target": "vel_add_acc.first.output1"
                                 },
                                 {
                                     "source": "add.output",
                                     "target": ".scale1"
+                                },
+                                {
+                                    "source": "clamp.clamped",
+                                    "target": "add.first.output1"
+                                },
+                                {
+                                    "source": "clamp.clamped",
+                                    "target": ".vel1"
+                                },
+                                {
+                                    "source": "negate.negated",
+                                    "target": "clamp.min"
+                                },
+                                {
+                                    "source": "pass.output",
+                                    "target": "clamp.max"
+                                },
+                                {
+                                    "source": "pass.output",
+                                    "target": "negate.value"
                                 },
                                 {
                                     "source": ".scale",
@@ -1367,30 +1456,6 @@
                                     "target": "multiply.first.Damping"
                                 },
                                 {
-                                    "source": "negate.negated",
-                                    "target": "clamp.min"
-                                },
-                                {
-                                    "source": "pass.output",
-                                    "target": "clamp.max"
-                                },
-                                {
-                                    "source": "pass.output",
-                                    "target": "negate.value"
-                                },
-                                {
-                                    "source": "vel_add_acc.output",
-                                    "target": "clamp.value"
-                                },
-                                {
-                                    "source": "clamp.clamped",
-                                    "target": "add.first.output1"
-                                },
-                                {
-                                    "source": "clamp.clamped",
-                                    "target": ".vel1"
-                                },
-                                {
                                     "source": ".speedLimit",
                                     "target": "pass.input"
                                 }
@@ -1406,7 +1471,7 @@
                             ]
                         },
                         {
-                            "name": "rot_force1",
+                            "name": "rot_force",
                             "uriImported": "stream:/bifrostGraphShape1",
                             "metadata": [
                                 {
@@ -1467,11 +1532,6 @@
                                                             "metaValue": "2"
                                                         },
                                                         {
-                                                            "metaName": "LayoutPos",
-                                                            "metaType": "string",
-                                                            "metaValue": "1753.38 -38.5985"
-                                                        },
-                                                        {
                                                             "metaName": "io_ports",
                                                             "metadata": [
                                                                 {
@@ -1481,6 +1541,11 @@
                                                                     "metaName": "vel1"
                                                                 }
                                                             ]
+                                                        },
+                                                        {
+                                                            "metaName": "LayoutPos",
+                                                            "metaType": "string",
+                                                            "metaValue": "2246.33 43.0336"
                                                         }
                                                     ]
                                                 }
@@ -1549,6 +1614,51 @@
                                     ]
                                 },
                                 {
+                                    "metaName": "backdrop",
+                                    "metadata": [
+                                        {
+                                            "metaName": "type",
+                                            "metaType": "string",
+                                            "metaValue": "backdrop"
+                                        },
+                                        {
+                                            "metaName": "title",
+                                            "metaType": "string",
+                                            "metaValue": "Quat to Euler"
+                                        },
+                                        {
+                                            "metaName": "coords",
+                                            "metaType": "string",
+                                            "metaValue": "-688.559 -798.694 253.253 464.229"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "metaName": "backdrop1",
+                                    "metadata": [
+                                        {
+                                            "metaName": "type",
+                                            "metaType": "string",
+                                            "metaValue": "backdrop"
+                                        },
+                                        {
+                                            "metaName": "title",
+                                            "metaType": "string",
+                                            "metaValue": "degrees to quat"
+                                        },
+                                        {
+                                            "metaName": "coords",
+                                            "metaType": "string",
+                                            "metaValue": "1168.99 -602.129 443.185 484.164"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "metaName": "_recentNode_",
+                                    "metaType": "string",
+                                    "metaValue": "backdrop"
+                                },
+                                {
                                     "metaName": "_recentNode_",
                                     "metaType": "string",
                                     "metaValue": "BifrostGraph,Core::Math,divide"
@@ -1569,14 +1679,9 @@
                                     "metaValue": "BifrostGraph,Core::Math,add"
                                 },
                                 {
-                                    "metaName": "_recentNode_",
-                                    "metaType": "string",
-                                    "metaValue": "BifrostGraph,Core::Math,multiply"
-                                },
-                                {
                                     "metaName": "ViewportRect",
                                     "metaType": "string",
-                                    "metaValue": "-362.622 -475.672 2131.59 1097.88"
+                                    "metaValue": "-2243.36 -1138.31 2729.34 1405.75"
                                 }
                             ],
                             "ports": [
@@ -1603,16 +1708,16 @@
                                     "portType": "float"
                                 },
                                 {
+                                    "portName": "speedLimit",
+                                    "portDirection": "input"
+                                },
+                                {
                                     "portName": "orientation1",
                                     "portDirection": "output"
                                 },
                                 {
                                     "portName": "vel1",
                                     "portDirection": "output"
-                                },
-                                {
-                                    "portName": "speedLimit",
-                                    "portDirection": "input"
                                 }
                             ],
                             "compoundNodes": [
@@ -1632,7 +1737,7 @@
                                         {
                                             "metaName": "LayoutPos",
                                             "metaType": "string",
-                                            "metaValue": "269.98 -715.037"
+                                            "metaValue": "144.496 -707.763"
                                         }
                                     ]
                                 },
@@ -1669,7 +1774,7 @@
                                         {
                                             "metaName": "LayoutPos",
                                             "metaType": "string",
-                                            "metaValue": "-438.238 -689.421"
+                                            "metaValue": "-200 -711.244"
                                         }
                                     ]
                                 },
@@ -1685,7 +1790,7 @@
                                         {
                                             "metaName": "LayoutPos",
                                             "metaType": "string",
-                                            "metaValue": "-422.447 -514.536"
+                                            "metaValue": "-222.4 -538.178"
                                         }
                                     ]
                                 },
@@ -1768,12 +1873,12 @@
                                         {
                                             "metaName": "DisplayMode",
                                             "metaType": "string",
-                                            "metaValue": "0"
+                                            "metaValue": "1"
                                         },
                                         {
                                             "metaName": "LayoutPos",
                                             "metaType": "string",
-                                            "metaValue": "-1306.19 -556.954"
+                                            "metaValue": "-1303.9 -559.24"
                                         }
                                     ]
                                 },
@@ -1805,39 +1910,7 @@
                                         {
                                             "metaName": "LayoutPos",
                                             "metaType": "string",
-                                            "metaValue": "-992.909 -492.673"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "nodeName": "quaternion_to_degrees",
-                                    "nodeType": "Print::quaternion_to_degrees",
-                                    "metadata": [
-                                        {
-                                            "metaName": "DisplayMode",
-                                            "metaType": "string",
-                                            "metaValue": "2"
-                                        },
-                                        {
-                                            "metaName": "LayoutPos",
-                                            "metaType": "string",
-                                            "metaValue": "-729.678 -670.769"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "nodeName": "degrees_to_quaternion",
-                                    "nodeType": "Print::degrees_to_quaternion",
-                                    "metadata": [
-                                        {
-                                            "metaName": "DisplayMode",
-                                            "metaType": "string",
-                                            "metaValue": "2"
-                                        },
-                                        {
-                                            "metaName": "LayoutPos",
-                                            "metaType": "string",
-                                            "metaValue": "1068.43 -170.173"
+                                            "metaValue": "-1022.63 -672.115"
                                         }
                                     ]
                                 },
@@ -1853,7 +1926,7 @@
                                         {
                                             "metaName": "LayoutPos",
                                             "metaType": "string",
-                                            "metaValue": "1319.79 -291.608"
+                                            "metaValue": "1846.97 -164.335"
                                         }
                                     ]
                                 },
@@ -1956,6 +2029,70 @@
                                             "metaValue": "461.709 332.782"
                                         }
                                     ]
+                                },
+                                {
+                                    "nodeName": "quaternion_to_euler",
+                                    "nodeType": "Core::Math::quaternion_to_euler",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "-670.306 -718.694"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeName": "radians_to_degrees",
+                                    "nodeType": "Core::Conversion::radians_to_degrees",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "-651.28 -486.73"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeName": "degrees_to_radians",
+                                    "nodeType": "Core::Conversion::degrees_to_radians",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "1274.65 -479.085"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeName": "euler_to_quaternion",
+                                    "nodeType": "Core::Math::euler_to_quaternion",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "1286.3 -325.372"
+                                        }
+                                    ]
                                 }
                             ],
                             "connections": [
@@ -1976,20 +2113,12 @@
                                     "target": "multiply_k.first.length"
                                 },
                                 {
+                                    "source": "vel_add_acc.output",
+                                    "target": "clamp.value"
+                                },
+                                {
                                     "source": "multiply.output",
                                     "target": "vel_add_acc.first.output1"
-                                },
-                                {
-                                    "source": ".vel",
-                                    "target": "multiply.first.vel"
-                                },
-                                {
-                                    "source": ".Stiffness",
-                                    "target": "multiply_k.first.Stiffness"
-                                },
-                                {
-                                    "source": ".Damping",
-                                    "target": "multiply.first.Damping"
                                 },
                                 {
                                     "source": "pass4.output",
@@ -2012,34 +2141,6 @@
                                     "target": "multiply_quaternions1.second"
                                 },
                                 {
-                                    "source": ".orientation",
-                                    "target": "pass4.input"
-                                },
-                                {
-                                    "source": ".target",
-                                    "target": "pass5.input"
-                                },
-                                {
-                                    "source": "multiply_quaternions1.quaternion",
-                                    "target": "quaternion_to_degrees.quaternion"
-                                },
-                                {
-                                    "source": "quaternion_to_degrees.degrees",
-                                    "target": "normalize.value"
-                                },
-                                {
-                                    "source": "quaternion_to_degrees.degrees",
-                                    "target": "vector_length.vector"
-                                },
-                                {
-                                    "source": "degrees_to_quaternion.quaternion",
-                                    "target": "multiply_quaternions.first"
-                                },
-                                {
-                                    "source": ".orientation",
-                                    "target": "multiply_quaternions.second"
-                                },
-                                {
                                     "source": "multiply_quaternions.quaternion",
                                     "target": ".orientation1"
                                 },
@@ -2052,12 +2153,16 @@
                                     "target": "divide.first.output2"
                                 },
                                 {
+                                    "source": "value2.output",
+                                    "target": "multiply_k.first.output1"
+                                },
+                                {
                                     "source": "divide.output",
                                     "target": "quaternion_slerp.fraction"
                                 },
                                 {
-                                    "source": "value2.output",
-                                    "target": "multiply_k.first.output1"
+                                    "source": "clamp.clamped",
+                                    "target": ".vel1"
                                 },
                                 {
                                     "source": "negate.negated",
@@ -2072,20 +2177,60 @@
                                     "target": "negate.value"
                                 },
                                 {
-                                    "source": "vel_add_acc.output",
-                                    "target": "clamp.value"
+                                    "source": ".orientation",
+                                    "target": "pass4.input"
                                 },
                                 {
-                                    "source": "clamp.clamped",
-                                    "target": "degrees_to_quaternion.rotate"
+                                    "source": ".orientation",
+                                    "target": "multiply_quaternions.second"
                                 },
                                 {
-                                    "source": "clamp.clamped",
-                                    "target": ".vel1"
+                                    "source": ".target",
+                                    "target": "pass5.input"
+                                },
+                                {
+                                    "source": ".vel",
+                                    "target": "multiply.first.vel"
+                                },
+                                {
+                                    "source": ".Stiffness",
+                                    "target": "multiply_k.first.Stiffness"
+                                },
+                                {
+                                    "source": ".Damping",
+                                    "target": "multiply.first.Damping"
                                 },
                                 {
                                     "source": ".speedLimit",
                                     "target": "pass.input"
+                                },
+                                {
+                                    "source": "quaternion_to_euler.euler_radians",
+                                    "target": "radians_to_degrees.radians"
+                                },
+                                {
+                                    "source": "multiply_quaternions1.quaternion",
+                                    "target": "quaternion_to_euler.quaternion"
+                                },
+                                {
+                                    "source": "radians_to_degrees.degrees",
+                                    "target": "normalize.value"
+                                },
+                                {
+                                    "source": "radians_to_degrees.degrees",
+                                    "target": "vector_length.vector"
+                                },
+                                {
+                                    "source": "degrees_to_radians.radians",
+                                    "target": "euler_to_quaternion.euler_radians"
+                                },
+                                {
+                                    "source": "clamp.clamped",
+                                    "target": "degrees_to_radians.degrees"
+                                },
+                                {
+                                    "source": "euler_to_quaternion.quaternion",
+                                    "target": "multiply_quaternions.first"
                                 }
                             ],
                             "values": [
@@ -2113,16 +2258,6 @@
                                     "valueName": "quaternion_slerp.use_nlerp_if_closer",
                                     "valueType": "float",
                                     "value": "0f"
-                                },
-                                {
-                                    "valueName": "quaternion_to_degrees.rotation_order",
-                                    "valueType": "Math::rotation_order",
-                                    "value": "XYZ"
-                                },
-                                {
-                                    "valueName": "degrees_to_quaternion.order",
-                                    "valueType": "Math::rotation_order",
-                                    "value": "XYZ"
                                 },
                                 {
                                     "valueName": "value1.value",
@@ -2153,28 +2288,12 @@
                                 {
                                     "metaName": "DisplayMode",
                                     "metaType": "string",
-                                    "metaValue": "0"
+                                    "metaValue": "2"
                                 },
                                 {
                                     "metaName": "LayoutPos",
                                     "metaType": "string",
-                                    "metaValue": "-2684.42 -1391.15"
-                                }
-                            ]
-                        },
-                        {
-                            "nodeName": "equal",
-                            "nodeType": "Core::Logic::equal",
-                            "metadata": [
-                                {
-                                    "metaName": "DisplayMode",
-                                    "metaType": "string",
-                                    "metaValue": "0"
-                                },
-                                {
-                                    "metaName": "LayoutPos",
-                                    "metaType": "string",
-                                    "metaValue": "-2397.54 -1393.25"
+                                    "metaValue": "-2674.82 -1472.4"
                                 }
                             ]
                         },
@@ -2206,7 +2325,7 @@
                                 {
                                     "metaName": "LayoutPos",
                                     "metaType": "string",
-                                    "metaValue": "225.195 -1119.68"
+                                    "metaValue": "169.138 -1240.84"
                                 }
                             ]
                         },
@@ -2247,14 +2366,14 @@
                             "nodeType": "Core::Graph::pass",
                             "metadata": [
                                 {
-                                    "metaName": "DisplayMode",
-                                    "metaType": "string",
-                                    "metaValue": "0"
-                                },
-                                {
                                     "metaName": "LayoutPos",
                                     "metaType": "string",
                                     "metaValue": "-131.588 -1453.28"
+                                },
+                                {
+                                    "metaName": "DisplayMode",
+                                    "metaType": "string",
+                                    "metaValue": "2"
                                 }
                             ]
                         },
@@ -2270,7 +2389,7 @@
                                 {
                                     "metaName": "LayoutPos",
                                     "metaType": "string",
-                                    "metaValue": "226.355 -1014.2"
+                                    "metaValue": "170.07 -1123.93"
                                 }
                             ]
                         },
@@ -2430,7 +2549,7 @@
                                 {
                                     "metaName": "LayoutPos",
                                     "metaType": "string",
-                                    "metaValue": "-416.985 -1041.24"
+                                    "metaValue": "-420.234 -1083.48"
                                 }
                             ]
                         },
@@ -2462,7 +2581,7 @@
                                 {
                                     "metaName": "LayoutPos",
                                     "metaType": "string",
-                                    "metaValue": "210.925 -718.215"
+                                    "metaValue": "195.356 -764.115"
                                 }
                             ]
                         },
@@ -2478,13 +2597,13 @@
                                 {
                                     "metaName": "LayoutPos",
                                     "metaType": "string",
-                                    "metaValue": "206.195 -610.518"
+                                    "metaValue": "179.291 -635.5"
                                 }
                             ]
                         },
                         {
-                            "nodeName": "scale_force1",
-                            "nodeType": "scale_force1",
+                            "nodeName": "scale_force",
+                            "nodeType": "scale_force",
                             "metadata": [
                                 {
                                     "metaName": "DisplayMode",
@@ -2494,13 +2613,13 @@
                                 {
                                     "metaName": "LayoutPos",
                                     "metaType": "string",
-                                    "metaValue": "-426.385 -698.347"
+                                    "metaValue": "-424.76 -721.667"
                                 }
                             ]
                         },
                         {
-                            "nodeName": "rot_force1",
-                            "nodeType": "rot_force1",
+                            "nodeName": "rot_force",
+                            "nodeType": "rot_force",
                             "metadata": [
                                 {
                                     "metaName": "DisplayMode",
@@ -2510,23 +2629,35 @@
                                 {
                                     "metaName": "LayoutPos",
                                     "metaType": "string",
-                                    "metaValue": "-432.465 -362.578"
+                                    "metaValue": "-428.335 -321.281"
+                                }
+                            ]
+                        },
+                        {
+                            "nodeName": "less_or_equal",
+                            "nodeType": "Core::Logic::less_or_equal",
+                            "metadata": [
+                                {
+                                    "metaName": "DisplayMode",
+                                    "metaType": "string",
+                                    "metaValue": "2"
+                                },
+                                {
+                                    "metaName": "LayoutPos",
+                                    "metaType": "string",
+                                    "metaValue": "-2306.19 -1411.99"
                                 }
                             ]
                         }
                     ],
                     "connections": [
                         {
-                            "source": "time.frame",
-                            "target": "equal.first"
-                        },
-                        {
-                            "source": "equal.output",
-                            "target": "if2.condition"
-                        },
-                        {
                             "source": "get_point_position.point_position",
                             "target": "position_force.position"
+                        },
+                        {
+                            "source": "set_point_position.out_geometry",
+                            "target": "set_geo_property.geometry"
                         },
                         {
                             "source": "if2.output",
@@ -2565,20 +2696,80 @@
                             "target": "set_point_position.geometry"
                         },
                         {
+                            "source": "set_geo_property.out_geometry",
+                            "target": "set_geo_property3.geometry"
+                        },
+                        {
+                            "source": "get_geo_property.data",
+                            "target": "position_force.vel"
+                        },
+                        {
                             "source": "get_point_position1.point_position",
                             "target": "position_force.target"
+                        },
+                        {
+                            "source": "get_geo_property1.data",
+                            "target": "rot_force.target"
+                        },
+                        {
+                            "source": "get_geo_property2.data",
+                            "target": "rot_force.orientation"
                         },
                         {
                             "source": "set_geo_property1.out_geometry",
                             "target": ".output"
                         },
                         {
+                            "source": "get_geo_property3.data",
+                            "target": "rot_force.vel"
+                        },
+                        {
                             "source": "set_geo_property2.out_geometry",
                             "target": "set_geo_property1.geometry"
                         },
                         {
+                            "source": "get_geo_property4.data",
+                            "target": "scale_force.target"
+                        },
+                        {
+                            "source": "get_geo_property5.data",
+                            "target": "scale_force.vel"
+                        },
+                        {
+                            "source": "position_force.pos",
+                            "target": "set_point_position.positions"
+                        },
+                        {
+                            "source": "position_force.vel1",
+                            "target": "set_geo_property.data"
+                        },
+                        {
+                            "source": "get_geo_property_point_scale.data",
+                            "target": "scale_force.scale"
+                        },
+                        {
+                            "source": "set_geo_property3.out_geometry",
+                            "target": "set_geo_property4.geometry"
+                        },
+                        {
                             "source": "set_geo_property4.out_geometry",
                             "target": "set_geo_property2.geometry"
+                        },
+                        {
+                            "source": "scale_force.scale1",
+                            "target": "set_geo_property3.data"
+                        },
+                        {
+                            "source": "scale_force.vel1",
+                            "target": "set_geo_property4.data"
+                        },
+                        {
+                            "source": "rot_force.orientation1",
+                            "target": "set_geo_property2.data"
+                        },
+                        {
+                            "source": "rot_force.vel1",
+                            "target": "set_geo_property1.data"
                         },
                         {
                             "source": ".startball",
@@ -2601,92 +2792,16 @@
                             "target": "if2.false_case"
                         },
                         {
-                            "source": ".Stiffness",
-                            "target": "position_force.Stiffness"
-                        },
-                        {
                             "source": ".Damping",
                             "target": "position_force.Damping"
                         },
                         {
-                            "source": "get_geo_property.data",
-                            "target": "position_force.vel"
-                        },
-                        {
-                            "source": "position_force.vel1",
-                            "target": "set_geo_property.data"
-                        },
-                        {
-                            "source": "position_force.pos",
-                            "target": "set_point_position.positions"
-                        },
-                        {
-                            "source": ".Stiffness",
-                            "target": "scale_force1.Stiffness"
+                            "source": ".Damping",
+                            "target": "scale_force.Damping"
                         },
                         {
                             "source": ".Damping",
-                            "target": "scale_force1.Damping"
-                        },
-                        {
-                            "source": "get_geo_property_point_scale.data",
-                            "target": "scale_force1.scale"
-                        },
-                        {
-                            "source": "get_geo_property4.data",
-                            "target": "scale_force1.target"
-                        },
-                        {
-                            "source": "get_geo_property5.data",
-                            "target": "scale_force1.vel"
-                        },
-                        {
-                            "source": "scale_force1.scale1",
-                            "target": "set_geo_property3.data"
-                        },
-                        {
-                            "source": "scale_force1.vel1",
-                            "target": "set_geo_property4.data"
-                        },
-                        {
-                            "source": ".Stiffness",
-                            "target": "rot_force1.Stiffness"
-                        },
-                        {
-                            "source": ".Damping",
-                            "target": "rot_force1.Damping"
-                        },
-                        {
-                            "source": "get_geo_property2.data",
-                            "target": "rot_force1.orientation"
-                        },
-                        {
-                            "source": "get_geo_property1.data",
-                            "target": "rot_force1.target"
-                        },
-                        {
-                            "source": "get_geo_property3.data",
-                            "target": "rot_force1.vel"
-                        },
-                        {
-                            "source": "rot_force1.orientation1",
-                            "target": "set_geo_property2.data"
-                        },
-                        {
-                            "source": "rot_force1.vel1",
-                            "target": "set_geo_property1.data"
-                        },
-                        {
-                            "source": "set_point_position.out_geometry",
-                            "target": "set_geo_property.geometry"
-                        },
-                        {
-                            "source": "set_geo_property.out_geometry",
-                            "target": "set_geo_property3.geometry"
-                        },
-                        {
-                            "source": "set_geo_property3.out_geometry",
-                            "target": "set_geo_property4.geometry"
+                            "target": "rot_force.Damping"
                         },
                         {
                             "source": ".speedLimit",
@@ -2694,11 +2809,35 @@
                         },
                         {
                             "source": ".speedLimit",
-                            "target": "scale_force1.speedLimit"
+                            "target": "scale_force.speedLimit"
                         },
                         {
                             "source": ".speedLimit",
-                            "target": "rot_force1.speedLimit"
+                            "target": "rot_force.speedLimit"
+                        },
+                        {
+                            "source": ".Stiffness",
+                            "target": "position_force.Stiffness"
+                        },
+                        {
+                            "source": ".Stiffness",
+                            "target": "scale_force.Stiffness"
+                        },
+                        {
+                            "source": ".Stiffness",
+                            "target": "rot_force.Stiffness"
+                        },
+                        {
+                            "source": "time.frame",
+                            "target": "less_or_equal.first"
+                        },
+                        {
+                            "source": "less_or_equal.output",
+                            "target": "if2.condition"
+                        },
+                        {
+                            "source": ".start_time",
+                            "target": "less_or_equal.second"
                         }
                     ],
                     "values": [
@@ -2828,12 +2967,12 @@
                             "value": "point_component"
                         },
                         {
-                            "valueName": "scale_force1.Stiffness",
+                            "valueName": "scale_force.Stiffness",
                             "valueType": "float",
                             "value": "0f"
                         },
                         {
-                            "valueName": "rot_force1.Stiffness",
+                            "valueName": "rot_force.Stiffness",
                             "valueType": "float",
                             "value": "0f"
                         }
@@ -2855,9 +2994,9 @@
                     "uriImported": "stream:/bifrostGraphShape1",
                     "metadata": [
                         {
-                            "metaName": "ViewportRect",
+                            "metaName": "_recentNode_",
                             "metaType": "string",
-                            "metaValue": "-544.652 -518.214 2562.09 1013.73"
+                            "metaValue": "BifrostGraph,Core::Logic,if"
                         },
                         {
                             "metaName": "_recentNode_",
@@ -2872,17 +3011,17 @@
                         {
                             "metaName": "_recentNode_",
                             "metaType": "string",
-                            "metaValue": "BifrostGraph,Core::Logic,if"
-                        },
-                        {
-                            "metaName": "_recentNode_",
-                            "metaType": "string",
                             "metaValue": "BifrostGraph,MJCG::Geometry::Properties,get_point_orientation"
                         },
                         {
                             "metaName": "_recentNode_",
                             "metaType": "string",
                             "metaValue": "BifrostGraph,MJCG::Geometry::Properties,set_point_orientation"
+                        },
+                        {
+                            "metaName": "ViewportRect",
+                            "metaType": "string",
+                            "metaValue": "-488.168 -571.34 2445.61 928.35"
                         },
                         {
                             "metaName": "io_nodes",
@@ -2901,7 +3040,7 @@
                                                 {
                                                     "metaName": "LayoutPos",
                                                     "metaType": "string",
-                                                    "metaValue": "-505.519 -179.762"
+                                                    "metaValue": "-650.463 -186.204"
                                                 },
                                                 {
                                                     "metaName": "io_ports",
@@ -2911,6 +3050,15 @@
                                                         },
                                                         {
                                                             "metaName": "output"
+                                                        },
+                                                        {
+                                                            "metaName": "Enable_Position"
+                                                        },
+                                                        {
+                                                            "metaName": "Enable_Rotation"
+                                                        },
+                                                        {
+                                                            "metaName": "Enable_Scale"
                                                         }
                                                     ]
                                                 }
@@ -2932,7 +3080,7 @@
                                                 {
                                                     "metaName": "LayoutPos",
                                                     "metaType": "string",
-                                                    "metaValue": "1309.81 -250.497"
+                                                    "metaValue": "1792.39 -266.855"
                                                 },
                                                 {
                                                     "metaName": "io_ports",
@@ -2958,6 +3106,21 @@
                         {
                             "portName": "output",
                             "portDirection": "input"
+                        },
+                        {
+                            "portName": "Enable_Position",
+                            "portDirection": "input",
+                            "portType": "bool"
+                        },
+                        {
+                            "portName": "Enable_Rotation",
+                            "portDirection": "input",
+                            "portType": "bool"
+                        },
+                        {
+                            "portName": "Enable_Scale",
+                            "portDirection": "input",
+                            "portType": "bool"
                         },
                         {
                             "portName": "out_geometry",
@@ -3010,7 +3173,7 @@
                                 {
                                     "metaName": "LayoutPos",
                                     "metaType": "string",
-                                    "metaValue": "470.455 -207.759"
+                                    "metaValue": "572.696 -217.982"
                                 }
                             ]
                         },
@@ -3026,7 +3189,7 @@
                                 {
                                     "metaName": "LayoutPos",
                                     "metaType": "string",
-                                    "metaValue": "214.362 -200.272"
+                                    "metaValue": "14.6614 -200.272"
                                 }
                             ]
                         },
@@ -3058,7 +3221,55 @@
                                 {
                                     "metaName": "LayoutPos",
                                     "metaType": "string",
-                                    "metaValue": "721.972 -226.452"
+                                    "metaValue": "1177.97 -230.541"
+                                }
+                            ]
+                        },
+                        {
+                            "nodeName": "if",
+                            "nodeType": "Core::Logic::if",
+                            "metadata": [
+                                {
+                                    "metaName": "DisplayMode",
+                                    "metaType": "string",
+                                    "metaValue": "0"
+                                },
+                                {
+                                    "metaName": "LayoutPos",
+                                    "metaType": "string",
+                                    "metaValue": "271.225 -371.122"
+                                }
+                            ]
+                        },
+                        {
+                            "nodeName": "if1",
+                            "nodeType": "Core::Logic::if",
+                            "metadata": [
+                                {
+                                    "metaName": "DisplayMode",
+                                    "metaType": "string",
+                                    "metaValue": "0"
+                                },
+                                {
+                                    "metaName": "LayoutPos",
+                                    "metaType": "string",
+                                    "metaValue": "879.291 -391.574"
+                                }
+                            ]
+                        },
+                        {
+                            "nodeName": "if2",
+                            "nodeType": "Core::Logic::if",
+                            "metadata": [
+                                {
+                                    "metaName": "DisplayMode",
+                                    "metaType": "string",
+                                    "metaValue": "0"
+                                },
+                                {
+                                    "metaName": "LayoutPos",
+                                    "metaType": "string",
+                                    "metaValue": "1472.27 -364.992"
                                 }
                             ]
                         }
@@ -3074,11 +3285,11 @@
                         },
                         {
                             "source": "set_geo_property.out_geometry",
-                            "target": "set_geo_property1.geometry"
+                            "target": "if1.true_case"
                         },
                         {
                             "source": "set_point_position.out_geometry",
-                            "target": "set_geo_property.geometry"
+                            "target": "if.true_case"
                         },
                         {
                             "source": "get_geo_property1.data",
@@ -3086,11 +3297,35 @@
                         },
                         {
                             "source": "set_geo_property1.out_geometry",
+                            "target": "if2.true_case"
+                        },
+                        {
+                            "source": "if.output",
+                            "target": "set_geo_property.geometry"
+                        },
+                        {
+                            "source": "if.output",
+                            "target": "if1.false_case"
+                        },
+                        {
+                            "source": "if1.output",
+                            "target": "set_geo_property1.geometry"
+                        },
+                        {
+                            "source": "if1.output",
+                            "target": "if2.false_case"
+                        },
+                        {
+                            "source": "if2.output",
                             "target": ".out_geometry"
                         },
                         {
                             "source": ".pp_in",
                             "target": "set_point_position.geometry"
+                        },
+                        {
+                            "source": ".pp_in",
+                            "target": "if.false_case"
                         },
                         {
                             "source": ".output",
@@ -3103,6 +3338,18 @@
                         {
                             "source": ".output",
                             "target": "get_geo_property1.geometry"
+                        },
+                        {
+                            "source": ".Enable_Position",
+                            "target": "if.condition"
+                        },
+                        {
+                            "source": ".Enable_Rotation",
+                            "target": "if1.condition"
+                        },
+                        {
+                            "source": ".Enable_Scale",
+                            "target": "if2.condition"
                         }
                     ],
                     "values": [
@@ -3368,6 +3615,11 @@
                             "metaValue": "2"
                         },
                         {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "832.113 -0.17102"
+                        },
+                        {
                             "metaName": "PortExpandedState",
                             "metadata": [
                                 {
@@ -3376,11 +3628,6 @@
                                     "metaValue": "1"
                                 }
                             ]
-                        },
-                        {
-                            "metaName": "LayoutPos",
-                            "metaType": "string",
-                            "metaValue": "832.113 -0.17102"
                         }
                     ]
                 },
@@ -3400,6 +3647,11 @@
                             "metaValue": "2"
                         },
                         {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "507.476 26.3747"
+                        },
+                        {
                             "metaName": "PortExpandedState",
                             "metadata": [
                                 {
@@ -3413,11 +3665,6 @@
                                     "metaValue": "1"
                                 }
                             ]
-                        },
-                        {
-                            "metaName": "LayoutPos",
-                            "metaType": "string",
-                            "metaValue": "507.476 26.3747"
                         }
                     ]
                 },
@@ -3436,6 +3683,22 @@
                             "metaValue": "67.5655 219.194"
                         }
                     ]
+                },
+                {
+                    "nodeName": "to_float",
+                    "nodeType": "Core::Type_Conversion::to_float",
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "0"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "-966.394 -21.8323"
+                        }
+                    ]
                 }
             ],
             "connections": [
@@ -3450,6 +3713,10 @@
                 {
                     "source": "value.output",
                     "target": "subtract.first.output1"
+                },
+                {
+                    "source": "subtract.output",
+                    "target": "spring.Damping"
                 },
                 {
                     "source": "value1.output",
@@ -3476,12 +3743,24 @@
                     "target": ".pp"
                 },
                 {
+                    "source": "if.output",
+                    "target": "create_instances.points"
+                },
+                {
                     "source": "set_geo_property.out_geometry",
                     "target": "spring.startball"
                 },
                 {
                     "source": "set_geo_property1.out_geometry",
                     "target": "set_geo_property2.geometry"
+                },
+                {
+                    "source": "create_instances.instances",
+                    "target": "terminal.diagnostic.instances"
+                },
+                {
+                    "source": "pp_default_diagnostic_cube.out_geometry",
+                    "target": "create_instances.preview_geometries.cube_mesh"
                 },
                 {
                     "source": ".Bypass",
@@ -3512,20 +3791,24 @@
                     "target": "spring.Stiffness"
                 },
                 {
-                    "source": "subtract.output",
-                    "target": "spring.Damping"
+                    "source": ".Enable_Position",
+                    "target": "set_values_to_original.Enable_Position"
                 },
                 {
-                    "source": "create_instances.instances",
-                    "target": "terminal.diagnostic.instances"
+                    "source": ".Enable_Rotation",
+                    "target": "set_values_to_original.Enable_Rotation"
                 },
                 {
-                    "source": "if.output",
-                    "target": "create_instances.points"
+                    "source": ".Enable_Scale",
+                    "target": "set_values_to_original.Enable_Scale"
                 },
                 {
-                    "source": "pp_default_diagnostic_cube.out_geometry",
-                    "target": "create_instances.preview_geometries.cube_mesh"
+                    "source": ".Start_time",
+                    "target": "to_float.from"
+                },
+                {
+                    "source": "to_float.float",
+                    "target": "spring.start_time"
                 }
             ],
             "values": [
@@ -3651,6 +3934,9 @@
             "reservedNodeNames": [
                 {
                     "name": "input"
+                },
+                {
+                    "name": "input1"
                 },
                 {
                     "name": "output"

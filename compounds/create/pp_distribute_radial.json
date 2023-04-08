@@ -82,6 +82,11 @@
                                             "metaValue": "2"
                                         },
                                         {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "366.438 -1060.25"
+                                        },
+                                        {
                                             "metaName": "io_ports",
                                             "metadata": [
                                                 {
@@ -94,11 +99,6 @@
                                                     "metaName": "Rotation_Strength"
                                                 }
                                             ]
-                                        },
-                                        {
-                                            "metaName": "LayoutPos",
-                                            "metaType": "string",
-                                            "metaValue": "366.438 -1060.25"
                                         }
                                     ]
                                 },
@@ -109,6 +109,11 @@
                                             "metaName": "DisplayMode",
                                             "metaType": "string",
                                             "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "688.053 -1049.12"
                                         },
                                         {
                                             "metaName": "io_ports",
@@ -126,11 +131,6 @@
                                                     "metaName": "Calculate_Rotations"
                                                 }
                                             ]
-                                        },
-                                        {
-                                            "metaName": "LayoutPos",
-                                            "metaType": "string",
-                                            "metaValue": "688.053 -1049.12"
                                         }
                                     ]
                                 }
@@ -148,17 +148,17 @@
                                             "metaValue": "2"
                                         },
                                         {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "2301.99 -132.647"
+                                        },
+                                        {
                                             "metaName": "io_ports",
                                             "metadata": [
                                                 {
                                                     "metaName": "pp"
                                                 }
                                             ]
-                                        },
-                                        {
-                                            "metaName": "LayoutPos",
-                                            "metaType": "string",
-                                            "metaValue": "2301.99 -132.647"
                                         }
                                     ]
                                 }
@@ -194,7 +194,7 @@
                 {
                     "metaName": "ViewportRect",
                     "metaType": "string",
-                    "metaValue": "-2155.96 -1230.48 2448.09 1260.89"
+                    "metaValue": "-1973.46 -852.172 1944.12 1001.32"
                 },
                 {
                     "metaName": "DisplayMode",
@@ -204,7 +204,7 @@
                 {
                     "metaName": "LayoutPos",
                     "metaType": "string",
-                    "metaValue": "-3223.61 -2046.78"
+                    "metaValue": "-476.036 -669.307"
                 },
                 {
                     "metaName": "UILayout",
@@ -517,8 +517,8 @@
                 {
                     "portName": "Radial_Axis",
                     "portDirection": "input",
-                    "portType": "float",
-                    "portDefault": "0f",
+                    "portType": "long",
+                    "portDefault": "0",
                     "metadata": [
                         {
                             "metaName": "UIWidget",
@@ -528,7 +528,7 @@
                         {
                             "metaName": "UIWidgetProp",
                             "metaType": "string",
-                            "metaValue": "items={XY=0;YZ=1;ZX=2}"
+                            "metaValue": "editable=false;items={XY=0;YZ=1;ZX=2}"
                         }
                     ]
                 },
@@ -651,7 +651,7 @@
                         {
                             "metaName": "ViewportRect",
                             "metaType": "string",
-                            "metaValue": "-2117.8 -695.027 2130.07 1097.09"
+                            "metaValue": "-1914.43 -506.712 1987.99 1023.91"
                         }
                     ],
                     "ports": [
@@ -668,7 +668,7 @@
                         {
                             "portName": "Radial_Axis",
                             "portDirection": "input",
-                            "portType": "float"
+                            "portType": "long"
                         },
                         {
                             "portName": "y",
@@ -744,14 +744,6 @@
                                                     "metaName": "output",
                                                     "metadata": [
                                                         {
-                                                            "metaName": "io_ports",
-                                                            "metadata": [
-                                                                {
-                                                                    "metaName": "vector3"
-                                                                }
-                                                            ]
-                                                        },
-                                                        {
                                                             "metaName": "DisplayMode",
                                                             "metaType": "string",
                                                             "metaValue": "2"
@@ -760,6 +752,14 @@
                                                             "metaName": "LayoutPos",
                                                             "metaType": "string",
                                                             "metaValue": "368.72 -202.666"
+                                                        },
+                                                        {
+                                                            "metaName": "io_ports",
+                                                            "metadata": [
+                                                                {
+                                                                    "metaName": "vector3"
+                                                                }
+                                                            ]
                                                         }
                                                     ]
                                                 }
@@ -795,14 +795,14 @@
                                 {
                                     "metaName": "ViewportRect",
                                     "metaType": "string",
-                                    "metaValue": "-1622.43 -108.841 1713.72 544.493"
+                                    "metaValue": "-1281.59 -708.29 2160.52 1112.78"
                                 }
                             ],
                             "ports": [
                                 {
                                     "portName": "Radial_Axis",
                                     "portDirection": "input",
-                                    "portType": "float"
+                                    "portType": "long"
                                 },
                                 {
                                     "portName": "output",
@@ -937,14 +937,6 @@
                             ],
                             "connections": [
                                 {
-                                    "source": ".Radial_Axis",
-                                    "target": "equal.first"
-                                },
-                                {
-                                    "source": ".Radial_Axis",
-                                    "target": "equal1.first"
-                                },
-                                {
                                     "source": "equal.output",
                                     "target": "if.condition"
                                 },
@@ -1007,6 +999,14 @@
                                 {
                                     "source": ".output2",
                                     "target": "scalar_to_vector5.y"
+                                },
+                                {
+                                    "source": ".Radial_Axis",
+                                    "target": "equal.first"
+                                },
+                                {
+                                    "source": ".Radial_Axis",
+                                    "target": "equal1.first"
                                 }
                             ],
                             "values": [
@@ -1147,7 +1147,7 @@
                                 {
                                     "metaName": "LayoutPos",
                                     "metaType": "string",
-                                    "metaValue": "-529.415 -252.379"
+                                    "metaValue": "-529.415 -254.041"
                                 }
                             ]
                         },
@@ -1214,10 +1214,6 @@
                             "target": "multiply.first.y"
                         },
                         {
-                            "source": ".Radial_Axis",
-                            "target": "axis_switch.Radial_Axis"
-                        },
-                        {
                             "source": "multiply1.output",
                             "target": "axis_switch.output"
                         },
@@ -1268,13 +1264,17 @@
                         {
                             "source": "multiply4.output",
                             "target": "multiply1.first.radius"
+                        },
+                        {
+                            "source": ".Radial_Axis",
+                            "target": "axis_switch.Radial_Axis"
                         }
                     ],
                     "values": [
                         {
                             "valueName": "axis_switch.Radial_Axis",
-                            "valueType": "float",
-                            "value": "0f"
+                            "valueType": "long",
+                            "value": "0"
                         }
                     ],
                     "reservedNodeNames": [
@@ -1345,28 +1345,23 @@
                                                     "metaValue": "2"
                                                 },
                                                 {
-                                                    "metaName": "LayoutPos",
-                                                    "metaType": "string",
-                                                    "metaValue": "635.011 -101.911"
-                                                },
-                                                {
                                                     "metaName": "io_ports",
                                                     "metadata": [
                                                         {
                                                             "metaName": "output"
                                                         }
                                                     ]
+                                                },
+                                                {
+                                                    "metaName": "LayoutPos",
+                                                    "metaType": "string",
+                                                    "metaValue": "845.938 -101.911"
                                                 }
                                             ]
                                         }
                                     ]
                                 }
                             ]
-                        },
-                        {
-                            "metaName": "ViewportRect",
-                            "metaType": "string",
-                            "metaValue": "-1003.97 -612.75 1926.14 1008.17"
                         },
                         {
                             "metaName": "_recentNode_",
@@ -1392,6 +1387,11 @@
                             "metaName": "_recentNode_",
                             "metaType": "string",
                             "metaValue": "BifrostGraph,Core::Type_Conversion,to_float"
+                        },
+                        {
+                            "metaName": "ViewportRect",
+                            "metaType": "string",
+                            "metaValue": "-1123.83 -609.851 2156.14 1110.52"
                         }
                     ],
                     "ports": [
@@ -1414,7 +1414,7 @@
                         {
                             "portName": "Radial_Axis",
                             "portDirection": "input",
-                            "portType": "float"
+                            "portType": "long"
                         },
                         {
                             "portName": "Calculate_Rotations",
@@ -1483,7 +1483,7 @@
                                                         {
                                                             "metaName": "LayoutPos",
                                                             "metaType": "string",
-                                                            "metaValue": "505.031 -422.581"
+                                                            "metaValue": "613.528 -411.731"
                                                         }
                                                     ]
                                                 }
@@ -1519,14 +1519,14 @@
                                 {
                                     "metaName": "ViewportRect",
                                     "metaType": "string",
-                                    "metaValue": "-1148.05 -351.716 1926.14 611.986"
+                                    "metaValue": "-1250.39 -813.019 2162.71 1113.91"
                                 }
                             ],
                             "ports": [
                                 {
                                     "portName": "Radial_Axis",
                                     "portDirection": "input",
-                                    "portType": "float"
+                                    "portType": "long"
                                 },
                                 {
                                     "portName": "theta",
@@ -1693,14 +1693,6 @@
                                     "target": "if.false_case"
                                 },
                                 {
-                                    "source": ".Radial_Axis",
-                                    "target": "equal.first"
-                                },
-                                {
-                                    "source": ".Radial_Axis",
-                                    "target": "equal1.first"
-                                },
-                                {
                                     "source": "if1.output",
                                     "target": "axis_angle_to_quaternion.axis"
                                 },
@@ -1711,6 +1703,14 @@
                                 {
                                     "source": ".theta",
                                     "target": "axis_angle_to_quaternion.radians"
+                                },
+                                {
+                                    "source": ".Radial_Axis",
+                                    "target": "equal.first"
+                                },
+                                {
+                                    "source": ".Radial_Axis",
+                                    "target": "equal1.first"
                                 }
                             ],
                             "values": [
@@ -1767,22 +1767,6 @@
                     ],
                     "compoundNodes": [
                         {
-                            "nodeName": "degrees_to_quaternion",
-                            "nodeType": "Print::degrees_to_quaternion",
-                            "metadata": [
-                                {
-                                    "metaName": "DisplayMode",
-                                    "metaType": "string",
-                                    "metaValue": "2"
-                                },
-                                {
-                                    "metaName": "LayoutPos",
-                                    "metaType": "string",
-                                    "metaValue": "-37.4768 -150.362"
-                                }
-                            ]
-                        },
-                        {
                             "nodeName": "multiply",
                             "nodeType": "Core::Math::multiply",
                             "multiInPortNames": [
@@ -1798,7 +1782,7 @@
                                 {
                                     "metaName": "LayoutPos",
                                     "metaType": "string",
-                                    "metaValue": "-338.219 -107.437"
+                                    "metaValue": "-361.655 -121.859"
                                 }
                             ]
                         },
@@ -1830,7 +1814,7 @@
                                 {
                                     "metaName": "LayoutPos",
                                     "metaType": "string",
-                                    "metaValue": "372.681 -261.715"
+                                    "metaValue": "583.608 -261.715"
                                 }
                             ]
                         },
@@ -1846,16 +1830,44 @@
                                 {
                                     "metaName": "LayoutPos",
                                     "metaType": "string",
-                                    "metaValue": "305.04 140.906"
+                                    "metaValue": "515.967 140.906"
+                                }
+                            ]
+                        },
+                        {
+                            "nodeName": "degrees_to_radians",
+                            "nodeType": "Core::Conversion::degrees_to_radians",
+                            "metadata": [
+                                {
+                                    "metaName": "DisplayMode",
+                                    "metaType": "string",
+                                    "metaValue": "2"
+                                },
+                                {
+                                    "metaName": "LayoutPos",
+                                    "metaType": "string",
+                                    "metaValue": "-76.5476 -117.148"
+                                }
+                            ]
+                        },
+                        {
+                            "nodeName": "euler_to_quaternion",
+                            "nodeType": "Core::Math::euler_to_quaternion",
+                            "metadata": [
+                                {
+                                    "metaName": "DisplayMode",
+                                    "metaType": "string",
+                                    "metaValue": "2"
+                                },
+                                {
+                                    "metaName": "LayoutPos",
+                                    "metaType": "string",
+                                    "metaValue": "221.241 -126.077"
                                 }
                             ]
                         }
                     ],
                     "connections": [
-                        {
-                            "source": "multiply.output",
-                            "target": "degrees_to_quaternion.rotate"
-                        },
                         {
                             "source": ".to_end",
                             "target": "multiply.first.output1"
@@ -1863,10 +1875,6 @@
                         {
                             "source": ".y",
                             "target": "multiply.first.y"
-                        },
-                        {
-                            "source": ".Radial_Axis",
-                            "target": "axis_switch.Radial_Axis"
                         },
                         {
                             "source": ".theta",
@@ -1877,16 +1885,8 @@
                             "target": "if.condition"
                         },
                         {
-                            "source": "degrees_to_quaternion.quaternion",
-                            "target": "if.false_case"
-                        },
-                        {
                             "source": "axis_switch.vector3",
                             "target": "multiply_quaternions.first"
-                        },
-                        {
-                            "source": "degrees_to_quaternion.quaternion",
-                            "target": "multiply_quaternions.second"
                         },
                         {
                             "source": "multiply_quaternions.quaternion",
@@ -1895,18 +1895,33 @@
                         {
                             "source": "if.output",
                             "target": ".output"
+                        },
+                        {
+                            "source": ".Radial_Axis",
+                            "target": "axis_switch.Radial_Axis"
+                        },
+                        {
+                            "source": "degrees_to_radians.radians",
+                            "target": "euler_to_quaternion.euler_radians"
+                        },
+                        {
+                            "source": "multiply.output",
+                            "target": "degrees_to_radians.degrees"
+                        },
+                        {
+                            "source": "euler_to_quaternion.quaternion",
+                            "target": "if.false_case"
+                        },
+                        {
+                            "source": "euler_to_quaternion.quaternion",
+                            "target": "multiply_quaternions.second"
                         }
                     ],
                     "values": [
                         {
-                            "valueName": "degrees_to_quaternion.order",
-                            "valueType": "Math::rotation_order",
-                            "value": "XYZ"
-                        },
-                        {
                             "valueName": "axis_switch.Radial_Axis",
-                            "valueType": "float",
-                            "value": "0f"
+                            "valueType": "long",
+                            "value": "0"
                         }
                     ],
                     "reservedNodeNames": [
@@ -2406,14 +2421,14 @@
                     "nodeType": "R",
                     "metadata": [
                         {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "994.428 -317.402"
+                        },
+                        {
                             "metaName": "DisplayMode",
                             "metaType": "string",
                             "metaValue": "2"
-                        },
-                        {
-                            "metaName": "LayoutPos",
-                            "metaType": "string",
-                            "metaValue": "996.539 -317.402"
                         }
                     ]
                 },
@@ -2572,12 +2587,12 @@
                         {
                             "metaName": "LayoutPos",
                             "metaType": "string",
-                            "metaValue": "229.361 -121.294"
+                            "metaValue": "224.741 -121.294"
                         },
                         {
                             "metaName": "DisplayMode",
                             "metaType": "string",
-                            "metaValue": "2"
+                            "metaValue": "0"
                         }
                     ]
                 },
@@ -2606,14 +2621,14 @@
                     ],
                     "metadata": [
                         {
-                            "metaName": "LayoutPos",
-                            "metaType": "string",
-                            "metaValue": "246.627 -396.389"
-                        },
-                        {
                             "metaName": "DisplayMode",
                             "metaType": "string",
-                            "metaValue": "2"
+                            "metaValue": "0"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "225.837 -336.33"
                         }
                     ]
                 },
@@ -2628,12 +2643,12 @@
                         {
                             "metaName": "DisplayMode",
                             "metaType": "string",
-                            "metaValue": "2"
+                            "metaValue": "0"
                         },
                         {
                             "metaName": "LayoutPos",
                             "metaType": "string",
-                            "metaValue": "180.116 -681.996"
+                            "metaValue": "244.795 -610.387"
                         }
                     ]
                 },
@@ -3048,16 +3063,8 @@
                     "target": "resize.last"
                 },
                 {
-                    "source": ".Radial_Axis",
-                    "target": "T.Radial_Axis"
-                },
-                {
                     "source": "T.theta",
                     "target": "R.theta"
-                },
-                {
-                    "source": ".Radial_Axis",
-                    "target": "R.Radial_Axis"
                 },
                 {
                     "source": ".Z_Offset",
@@ -3114,6 +3121,14 @@
                 {
                     "source": "evaluate_fcurve2.y",
                     "target": "multiply.first.y"
+                },
+                {
+                    "source": ".Radial_Axis",
+                    "target": "T.Radial_Axis"
+                },
+                {
+                    "source": ".Radial_Axis",
+                    "target": "R.Radial_Axis"
                 }
             ],
             "values": [
@@ -3146,6 +3161,11 @@
                     }
                 },
                 {
+                    "valueName": "T.Radial_Axis",
+                    "valueType": "long",
+                    "value": "0"
+                },
+                {
                     "valueName": "R.to_end",
                     "valueType": "Math::float3",
                     "value": {
@@ -3153,6 +3173,11 @@
                         "y": "0f",
                         "z": "0f"
                     }
+                },
+                {
+                    "valueName": "R.Radial_Axis",
+                    "valueType": "long",
+                    "value": "0"
                 },
                 {
                     "valueName": "S.to_end",

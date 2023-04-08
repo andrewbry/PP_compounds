@@ -29,6 +29,11 @@
                                             "metaValue": "2"
                                         },
                                         {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "-1247.53 -246.833"
+                                        },
+                                        {
                                             "metaName": "io_ports",
                                             "metadata": [
                                                 {
@@ -38,11 +43,6 @@
                                                     "metaName": "Mask"
                                                 }
                                             ]
-                                        },
-                                        {
-                                            "metaName": "LayoutPos",
-                                            "metaType": "string",
-                                            "metaValue": "-1247.53 -246.833"
                                         }
                                     ]
                                 },
@@ -153,6 +153,11 @@
                                             "metaValue": "2"
                                         },
                                         {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "-886.628 354.994"
+                                        },
+                                        {
                                             "metaName": "io_ports",
                                             "metadata": [
                                                 {
@@ -168,11 +173,6 @@
                                                     "metaName": "Step_Strength"
                                                 }
                                             ]
-                                        },
-                                        {
-                                            "metaName": "LayoutPos",
-                                            "metaType": "string",
-                                            "metaValue": "-886.628 354.994"
                                         }
                                     ]
                                 },
@@ -265,7 +265,7 @@
                 {
                     "metaName": "ViewportRect",
                     "metaType": "string",
-                    "metaValue": "-607.863 -674.331 1926.14 992.061"
+                    "metaValue": "-1359.9 -501.679 3042.21 992.061"
                 },
                 {
                     "metaName": "DisplayMode",
@@ -947,7 +947,7 @@
                         {
                             "metaName": "ViewportRect",
                             "metaType": "string",
-                            "metaValue": "-1353.28 -1080.39 2234.25 1150.75"
+                            "metaValue": "-1990.04 -142.727 3036.05 990.051"
                         }
                     ],
                     "ports": [
@@ -1593,6 +1593,21 @@
                                     ]
                                 },
                                 {
+                                    "metaName": "ViewportRect",
+                                    "metaType": "string",
+                                    "metaValue": "-669.833 -576.505 3419.32 1115.03"
+                                },
+                                {
+                                    "metaName": "_recentNode_",
+                                    "metaType": "string",
+                                    "metaValue": "BifrostGraph,Core::Conversion,degrees_to_radians"
+                                },
+                                {
+                                    "metaName": "_recentNode_",
+                                    "metaType": "string",
+                                    "metaValue": "BifrostGraph,Core::Conversion,radians_to_degrees"
+                                },
+                                {
                                     "metaName": "_recentNode_",
                                     "metaType": "string",
                                     "metaValue": "BifrostGraph,Core::Math,multiply"
@@ -1606,21 +1621,6 @@
                                     "metaName": "_recentNode_",
                                     "metaType": "string",
                                     "metaValue": "BifrostGraph,Core::Math,euler_to_quaternion"
-                                },
-                                {
-                                    "metaName": "_recentNode_",
-                                    "metaType": "string",
-                                    "metaValue": "BifrostGraph,Core::Conversion,radians_to_degrees"
-                                },
-                                {
-                                    "metaName": "_recentNode_",
-                                    "metaType": "string",
-                                    "metaValue": "BifrostGraph,Core::Math,quaternion_to_euler"
-                                },
-                                {
-                                    "metaName": "ViewportRect",
-                                    "metaType": "string",
-                                    "metaValue": "-517.956 -146.229 2851.31 893.289"
                                 }
                             ],
                             "ports": [
@@ -1689,22 +1689,6 @@
                                     ]
                                 },
                                 {
-                                    "nodeName": "quaternion_to_degrees",
-                                    "nodeType": "Print::quaternion_to_degrees",
-                                    "metadata": [
-                                        {
-                                            "metaName": "DisplayMode",
-                                            "metaType": "string",
-                                            "metaValue": "2"
-                                        },
-                                        {
-                                            "metaName": "LayoutPos",
-                                            "metaType": "string",
-                                            "metaValue": "162.801 25.6111"
-                                        }
-                                    ]
-                                },
-                                {
                                     "nodeName": "multiply1",
                                     "nodeType": "Core::Math::multiply",
                                     "multiInPortNames": [
@@ -1720,23 +1704,7 @@
                                         {
                                             "metaName": "LayoutPos",
                                             "metaType": "string",
-                                            "metaValue": "541.634 -102.55"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "nodeName": "degrees_to_quaternion2",
-                                    "nodeType": "Print::degrees_to_quaternion",
-                                    "metadata": [
-                                        {
-                                            "metaName": "DisplayMode",
-                                            "metaType": "string",
-                                            "metaValue": "2"
-                                        },
-                                        {
-                                            "metaName": "LayoutPos",
-                                            "metaType": "string",
-                                            "metaValue": "857.568 -40.0572"
+                                            "metaValue": "849.355 -107.98"
                                         }
                                     ]
                                 },
@@ -1759,6 +1727,54 @@
                                             "metaValue": "878.85 452.616"
                                         }
                                     ]
+                                },
+                                {
+                                    "nodeName": "euler_to_quaternion",
+                                    "nodeType": "Core::Math::euler_to_quaternion",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "1225.39 -133.12"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeName": "quaternion_to_euler",
+                                    "nodeType": "Core::Math::quaternion_to_euler",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "406.635 61.2811"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeName": "degrees_to_radians",
+                                    "nodeType": "Core::Conversion::degrees_to_radians",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "394.525 -114.164"
+                                        }
+                                    ]
                                 }
                             ],
                             "connections": [
@@ -1775,26 +1791,6 @@
                                     "target": ".t"
                                 },
                                 {
-                                    "source": ".point_orientation",
-                                    "target": "quaternion_to_degrees.quaternion"
-                                },
-                                {
-                                    "source": ".rotate",
-                                    "target": "multiply1.first.rotate"
-                                },
-                                {
-                                    "source": "multiply1.output",
-                                    "target": "degrees_to_quaternion2.rotate"
-                                },
-                                {
-                                    "source": "degrees_to_quaternion2.quaternion",
-                                    "target": ".r"
-                                },
-                                {
-                                    "source": "quaternion_to_degrees.degrees",
-                                    "target": "multiply1.first.degrees"
-                                },
-                                {
                                     "source": ".scale",
                                     "target": "multiply2.first.scale"
                                 },
@@ -1805,20 +1801,33 @@
                                 {
                                     "source": "multiply2.output",
                                     "target": ".s"
-                                }
-                            ],
-                            "values": [
-                                {
-                                    "valueName": "quaternion_to_degrees.rotation_order",
-                                    "valueType": "Math::rotation_order",
-                                    "value": "XYZ"
                                 },
                                 {
-                                    "valueName": "degrees_to_quaternion2.order",
-                                    "valueType": "Math::rotation_order",
-                                    "value": "XYZ"
+                                    "source": "euler_to_quaternion.quaternion",
+                                    "target": ".r"
+                                },
+                                {
+                                    "source": ".point_orientation",
+                                    "target": "quaternion_to_euler.quaternion"
+                                },
+                                {
+                                    "source": "multiply1.output",
+                                    "target": "euler_to_quaternion.euler_radians"
+                                },
+                                {
+                                    "source": ".rotate",
+                                    "target": "degrees_to_radians.degrees"
+                                },
+                                {
+                                    "source": "degrees_to_radians.radians",
+                                    "target": "multiply1.first.degrees"
+                                },
+                                {
+                                    "source": "quaternion_to_euler.euler_radians",
+                                    "target": "multiply1.first.rotate"
                                 }
                             ],
+                            "values": [],
                             "reservedNodeNames": [
                                 {
                                     "name": "input"
@@ -1884,11 +1893,6 @@
                                                             "metaValue": "2"
                                                         },
                                                         {
-                                                            "metaName": "LayoutPos",
-                                                            "metaType": "string",
-                                                            "metaValue": "398.208 -127.96"
-                                                        },
-                                                        {
                                                             "metaName": "io_ports",
                                                             "metadata": [
                                                                 {
@@ -1901,6 +1905,11 @@
                                                                     "metaName": "s"
                                                                 }
                                                             ]
+                                                        },
+                                                        {
+                                                            "metaName": "LayoutPos",
+                                                            "metaType": "string",
+                                                            "metaValue": "398.208 -107.066"
                                                         }
                                                     ]
                                                 }
@@ -1936,7 +1945,7 @@
                                 {
                                     "metaName": "ViewportRect",
                                     "metaType": "string",
-                                    "metaValue": "-790 -247 1580 495"
+                                    "metaValue": "-1258.75 -554.92 3036.05 990.051"
                                 }
                             ],
                             "ports": [
@@ -1972,8 +1981,8 @@
                             ],
                             "compoundNodes": [
                                 {
-                                    "nodeName": "degrees_to_quaternion",
-                                    "nodeType": "Print::degrees_to_quaternion",
+                                    "nodeName": "degrees_to_radians",
+                                    "nodeType": "Core::Conversion::degrees_to_radians",
                                     "metadata": [
                                         {
                                             "metaName": "DisplayMode",
@@ -1983,7 +1992,23 @@
                                         {
                                             "metaName": "LayoutPos",
                                             "metaType": "string",
-                                            "metaValue": "-134.865 -203.676"
+                                            "metaValue": "-225.978 -347.828"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeName": "euler_to_quaternion",
+                                    "nodeType": "Core::Math::euler_to_quaternion",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "104.737 -373.475"
                                         }
                                     ]
                                 }
@@ -1998,11 +2023,15 @@
                                     "target": ".s"
                                 },
                                 {
-                                    "source": ".rotate",
-                                    "target": "degrees_to_quaternion.rotate"
+                                    "source": "degrees_to_radians.radians",
+                                    "target": "euler_to_quaternion.euler_radians"
                                 },
                                 {
-                                    "source": "degrees_to_quaternion.quaternion",
+                                    "source": ".rotate",
+                                    "target": "degrees_to_radians.degrees"
+                                },
+                                {
+                                    "source": "euler_to_quaternion.quaternion",
                                     "target": ".r"
                                 }
                             ],

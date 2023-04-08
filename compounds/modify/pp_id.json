@@ -134,6 +134,46 @@
                     ]
                 },
                 {
+                    "metaName": "sticky_note",
+                    "metadata": [
+                        {
+                            "metaName": "type",
+                            "metaType": "string",
+                            "metaValue": "sticky_note"
+                        },
+                        {
+                            "metaName": "fontSize",
+                            "metaType": "string",
+                            "metaValue": "10"
+                        },
+                        {
+                            "metaName": "format",
+                            "metaType": "string",
+                            "metaValue": "txt"
+                        },
+                        {
+                            "metaName": "text",
+                            "metaType": "string",
+                            "metaValue": "0:linear\n1:Random\n2:Cycle\n3:Fixed\n"
+                        },
+                        {
+                            "metaName": "color",
+                            "metaType": "string",
+                            "metaValue": "#ffb2b2b5"
+                        },
+                        {
+                            "metaName": "coords",
+                            "metaType": "string",
+                            "metaValue": "-467.895 -1011.67 171.055 159.655"
+                        }
+                    ]
+                },
+                {
+                    "metaName": "_recentNode_",
+                    "metaType": "string",
+                    "metaValue": "sticky note"
+                },
+                {
                     "metaName": "_recentNode_",
                     "metaType": "string",
                     "metaValue": "BifrostGraph,Hyuu::Geometry,copy_geo_to_points"
@@ -154,14 +194,9 @@
                     "metaValue": "BifrostGraph,Geometry::Properties,set_geo_property"
                 },
                 {
-                    "metaName": "_recentNode_",
-                    "metaType": "string",
-                    "metaValue": "BifrostGraph,AB::PP::Utility,pp_sequence_index_array"
-                },
-                {
                     "metaName": "ViewportRect",
                     "metaType": "string",
-                    "metaValue": "499.036 -656.161 1945.72 1113.9"
+                    "metaValue": "-891.981 -990.015 2156.53 1113.45"
                 },
                 {
                     "metaName": "DisplayMode",
@@ -171,7 +206,7 @@
                 {
                     "metaName": "LayoutPos",
                     "metaType": "string",
-                    "metaValue": "-2274.27 -1605.64"
+                    "metaValue": "296.592 -263.525"
                 },
                 {
                     "metaName": "UILayout",
@@ -213,8 +248,8 @@
                 {
                     "portName": "Type",
                     "portDirection": "input",
-                    "portType": "string",
-                    "portDefault": "Linear",
+                    "portType": "long",
+                    "portDefault": "0",
                     "metadata": [
                         {
                             "metaName": "UIWidget",
@@ -224,7 +259,7 @@
                         {
                             "metaName": "UIWidgetProp",
                             "metaType": "string",
-                            "metaValue": "items={Linear;Random;Fixed}"
+                            "metaValue": "editable=false;items={Linear=0;Random=1;Fixed=2}"
                         }
                     ]
                 },
@@ -266,7 +301,7 @@
                     "portName": "Bypass",
                     "portDirection": "input",
                     "portType": "bool",
-                    "portDefault": "true"
+                    "portDefault": "false"
                 }
             ],
             "compoundNodes": [
@@ -282,7 +317,7 @@
                         {
                             "metaName": "LayoutPos",
                             "metaType": "string",
-                            "metaValue": "-485.222 -774.567"
+                            "metaValue": "-495.206 -827.341"
                         }
                     ]
                 },
@@ -298,7 +333,7 @@
                         {
                             "metaName": "LayoutPos",
                             "metaType": "string",
-                            "metaValue": "58.1442 -807.539"
+                            "metaValue": "218.756 -885.138"
                         }
                     ]
                 },
@@ -402,14 +437,14 @@
                     "nodeType": "Core::Randomization::random_value",
                     "metadata": [
                         {
-                            "metaName": "LayoutPos",
-                            "metaType": "string",
-                            "metaValue": "-490.089 -212.068"
-                        },
-                        {
                             "metaName": "DisplayMode",
                             "metaType": "string",
                             "metaValue": "0"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "-466.629 -210.263"
                         }
                     ]
                 },
@@ -418,14 +453,14 @@
                     "nodeType": "Core::Logic::equal",
                     "metadata": [
                         {
-                            "metaName": "LayoutPos",
-                            "metaType": "string",
-                            "metaValue": "-490.608 -698.715"
-                        },
-                        {
                             "metaName": "DisplayMode",
                             "metaType": "string",
                             "metaValue": "0"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "-492.034 -732.946"
                         }
                     ]
                 },
@@ -434,14 +469,14 @@
                     "nodeType": "Core::Logic::equal",
                     "metadata": [
                         {
-                            "metaName": "LayoutPos",
-                            "metaType": "string",
-                            "metaValue": "-484.146 -623.763"
-                        },
-                        {
                             "metaName": "DisplayMode",
                             "metaType": "string",
                             "metaValue": "0"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "-488.425 -643.731"
                         }
                     ]
                 },
@@ -457,7 +492,7 @@
                         {
                             "metaName": "LayoutPos",
                             "metaType": "string",
-                            "metaValue": "-488.916 -535.755"
+                            "metaValue": "-487.49 -544.313"
                         }
                     ]
                 },
@@ -473,23 +508,7 @@
                         {
                             "metaName": "LayoutPos",
                             "metaType": "string",
-                            "metaValue": "41.3052 -611.362"
-                        }
-                    ]
-                },
-                {
-                    "nodeName": "if2",
-                    "nodeType": "Core::Logic::if",
-                    "metadata": [
-                        {
-                            "metaName": "DisplayMode",
-                            "metaType": "string",
-                            "metaValue": "2"
-                        },
-                        {
-                            "metaName": "LayoutPos",
-                            "metaType": "string",
-                            "metaValue": "41.9586 -416.636"
+                            "metaValue": "-124.72 -629.408"
                         }
                     ]
                 },
@@ -665,7 +684,7 @@
                         {
                             "metaName": "LayoutPos",
                             "metaType": "string",
-                            "metaValue": "-1298.77 -392.899"
+                            "metaValue": "-1136.35 -389.29"
                         }
                     ]
                 }
@@ -692,32 +711,12 @@
                     "target": "if1.condition"
                 },
                 {
-                    "source": "equal2.output",
-                    "target": "if2.condition"
-                },
-                {
                     "source": "if1.output",
                     "target": "if.false_case"
                 },
                 {
                     "source": "pass.output",
                     "target": "set_geo_property.geometry"
-                },
-                {
-                    "source": ".Type",
-                    "target": "equal.first"
-                },
-                {
-                    "source": ".Type",
-                    "target": "equal1.first"
-                },
-                {
-                    "source": ".Type",
-                    "target": "equal2.first"
-                },
-                {
-                    "source": ".Type",
-                    "target": "equal3.first"
                 },
                 {
                     "source": ".ID_Count",
@@ -830,13 +829,29 @@
                 {
                     "source": "pp_sequence_index_array.index_array",
                     "target": "random_value.index"
+                },
+                {
+                    "source": ".Type",
+                    "target": "equal.first"
+                },
+                {
+                    "source": ".Type",
+                    "target": "equal1.first"
+                },
+                {
+                    "source": ".Type",
+                    "target": "equal2.first"
+                },
+                {
+                    "source": ".Type",
+                    "target": "equal3.first"
                 }
             ],
             "values": [
                 {
                     "valueName": "equal.second",
-                    "valueType": "string",
-                    "value": "Linear"
+                    "valueType": "long",
+                    "value": "0"
                 },
                 {
                     "valueName": "set_geo_property.property",
@@ -1060,18 +1075,18 @@
                 },
                 {
                     "valueName": "equal1.second",
-                    "valueType": "string",
-                    "value": "Random"
+                    "valueType": "long",
+                    "value": "1"
                 },
                 {
                     "valueName": "equal2.second",
-                    "valueType": "string",
-                    "value": "Cycle"
+                    "valueType": "long",
+                    "value": "2"
                 },
                 {
                     "valueName": "equal3.second",
-                    "valueType": "string",
-                    "value": "Fixed"
+                    "valueType": "long",
+                    "value": "3"
                 },
                 {
                     "valueName": "interpret_auto_port_as_scalar.default_value",

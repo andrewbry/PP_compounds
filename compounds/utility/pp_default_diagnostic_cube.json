@@ -12,7 +12,49 @@
     "compounds": [
         {
             "name": "AB::PP::Utility::pp_default_diagnostic_cube",
+            "uriImported": "file:///pp_default_diagnostic_cube.json",
             "metadata": [
+                {
+                    "metaName": "io_nodes",
+                    "metadata": [
+                        {
+                            "metaName": "io_inodes"
+                        },
+                        {
+                            "metaName": "io_onodes",
+                            "metadata": [
+                                {
+                                    "metaName": "output",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "io_ports",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "out_geometry"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "1482.46 158.902"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "metaName": "ViewportRect",
+                    "metaType": "string",
+                    "metaValue": "-514.865 -362.126 3042.21 992.061"
+                },
                 {
                     "metaName": "_recentNode_",
                     "metaType": "string",
@@ -39,64 +81,6 @@
                     "metaValue": "BifrostGraph,Geometry::Properties,set_geo_property"
                 },
                 {
-                    "metaName": "io_nodes",
-                    "metadata": [
-                        {
-                            "metaName": "io_inodes",
-                            "metadata": [
-                                {
-                                    "metaName": "input",
-                                    "metadata": [
-                                        {
-                                            "metaName": "DisplayMode",
-                                            "metaType": "string",
-                                            "metaValue": "2"
-                                        },
-                                        {
-                                            "metaName": "LayoutPos",
-                                            "metaType": "string",
-                                            "metaValue": "-794 -61"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "metaName": "io_onodes",
-                            "metadata": [
-                                {
-                                    "metaName": "output",
-                                    "metadata": [
-                                        {
-                                            "metaName": "DisplayMode",
-                                            "metaType": "string",
-                                            "metaValue": "2"
-                                        },
-                                        {
-                                            "metaName": "LayoutPos",
-                                            "metaType": "string",
-                                            "metaValue": "1603.25 166.954"
-                                        },
-                                        {
-                                            "metaName": "io_ports",
-                                            "metadata": [
-                                                {
-                                                    "metaName": "out_geometry"
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "metaName": "ViewportRect",
-                    "metaType": "string",
-                    "metaValue": "-463.01 54.7284 2173.67 664.855"
-                },
-                {
                     "metaName": "DisplayMode",
                     "metaType": "string",
                     "metaValue": "2"
@@ -104,7 +88,7 @@
                 {
                     "metaName": "LayoutPos",
                     "metaType": "string",
-                    "metaValue": "253.85 412.123"
+                    "metaValue": "-445.5 111"
                 }
             ],
             "ports": [
@@ -112,554 +96,6 @@
                     "portName": "out_geometry",
                     "portDirection": "output",
                     "portType": "Object"
-                }
-            ],
-            "compounds": [
-                {
-                    "name": "diagnostic_material",
-                    "metadata": [
-                        {
-                            "metaName": "DisplayMode",
-                            "metaType": "string",
-                            "metaValue": "2"
-                        },
-                        {
-                            "metaName": "LayoutPos",
-                            "metaType": "string",
-                            "metaValue": "-489.445 -307.905"
-                        },
-                        {
-                            "metaName": "UILayout",
-                            "metaType": "string",
-                            "metaValue": "{\n    \"NodeLayout\": {\n        \"hideUndeclaredPorts\": false,\n        \"items\": [\n            {\n                \"port\": \"geometry\"\n            },\n            {\n                \"port\": \"emission_color\"\n            },\n            {\n                \"expanded\": false,\n                \"group\": \"Data\",\n                \"items\": [\n                    {\n                        \"port\": \"component\"\n                    }\n                ]\n            },\n            {\n                \"expanded\": false,\n                \"group\": \"data\"\n            },\n            {\n                \"expanded\": false,\n                \"group\": \"Shader\",\n                \"items\": [\n                    {\n                        \"port\": \"diffuse\"\n                    },\n                    {\n                        \"port\": \"specular\"\n                    },\n                    {\n                        \"port\": \"emission\"\n                    }\n                ]\n            }\n        ]\n    }\n}\n"
-                        },
-                        {
-                            "metaName": "ViewportRect",
-                            "metaType": "string",
-                            "metaValue": "-936.47 -267.149 1848.13 1257.17"
-                        },
-                        {
-                            "metaName": "_recentNode_",
-                            "metaType": "string",
-                            "metaValue": "BifrostGraph,Rendering::Materials,standard_surface_mat"
-                        },
-                        {
-                            "metaName": "_recentNode_",
-                            "metaType": "string",
-                            "metaValue": "BifrostGraph,Rendering::Materials,set_geo_property_reference"
-                        },
-                        {
-                            "metaName": "_recentNode_",
-                            "metaType": "string",
-                            "metaValue": "BifrostGraph,Rendering::Materials,assign_material"
-                        },
-                        {
-                            "metaName": "_recentNode_",
-                            "metaType": "string",
-                            "metaValue": "BifrostGraph,Geometry::Properties,set_geo_property"
-                        },
-                        {
-                            "metaName": "_recentNode_",
-                            "metaType": "string",
-                            "metaValue": "BifrostGraph,Geometry::Common,interpret_auto_port_as_vector"
-                        },
-                        {
-                            "metaName": "PortExpandedState",
-                            "metadata": [
-                                {
-                                    "metaName": "Data",
-                                    "metaType": "string",
-                                    "metaValue": "1"
-                                },
-                                {
-                                    "metaName": "Shader",
-                                    "metaType": "string",
-                                    "metaValue": "1"
-                                }
-                            ]
-                        },
-                        {
-                            "metaName": "io_nodes",
-                            "metadata": [
-                                {
-                                    "metaName": "io_inodes",
-                                    "metadata": [
-                                        {
-                                            "metaName": "input",
-                                            "metadata": [
-                                                {
-                                                    "metaName": "DisplayMode",
-                                                    "metaType": "string",
-                                                    "metaValue": "2"
-                                                },
-                                                {
-                                                    "metaName": "LayoutPos",
-                                                    "metaType": "string",
-                                                    "metaValue": "-1028.4 18.9194"
-                                                },
-                                                {
-                                                    "metaName": "io_ports",
-                                                    "metadata": [
-                                                        {
-                                                            "metaName": "geometry"
-                                                        },
-                                                        {
-                                                            "metaName": "diffuse_color"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                },
-                                {
-                                    "metaName": "io_onodes",
-                                    "metadata": [
-                                        {
-                                            "metaName": "output",
-                                            "metadata": [
-                                                {
-                                                    "metaName": "DisplayMode",
-                                                    "metaType": "string",
-                                                    "metaValue": "2"
-                                                },
-                                                {
-                                                    "metaName": "LayoutPos",
-                                                    "metaType": "string",
-                                                    "metaValue": "702.888 -207.099"
-                                                },
-                                                {
-                                                    "metaName": "io_ports",
-                                                    "metadata": [
-                                                        {
-                                                            "metaName": "geometry_with_material"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "ports": [
-                        {
-                            "portName": "geometry",
-                            "portDirection": "input",
-                            "portType": "Object"
-                        },
-                        {
-                            "portName": "diffuse_color",
-                            "portDirection": "input"
-                        },
-                        {
-                            "portName": "geometry_with_material",
-                            "portDirection": "output"
-                        }
-                    ],
-                    "compoundNodes": [
-                        {
-                            "nodeName": "interpret_auto_port_as_vector",
-                            "nodeType": "Geometry::Common::interpret_auto_port_as_vector",
-                            "metadata": [
-                                {
-                                    "metaName": "DisplayMode",
-                                    "metaType": "string",
-                                    "metaValue": "2"
-                                },
-                                {
-                                    "metaName": "LayoutPos",
-                                    "metaType": "string",
-                                    "metaValue": "-415.483 -38.0109"
-                                }
-                            ]
-                        },
-                        {
-                            "nodeName": "set_geo_property",
-                            "nodeType": "Geometry::Properties::set_geo_property",
-                            "metadata": [
-                                {
-                                    "metaName": "DisplayMode",
-                                    "metaType": "string",
-                                    "metaValue": "2"
-                                },
-                                {
-                                    "metaName": "LayoutPos",
-                                    "metaType": "string",
-                                    "metaValue": "-110.883 -252.292"
-                                }
-                            ]
-                        },
-                        {
-                            "nodeName": "assign_material",
-                            "nodeType": "Rendering::Materials::assign_material",
-                            "metadata": [
-                                {
-                                    "metaName": "DisplayMode",
-                                    "metaType": "string",
-                                    "metaValue": "2"
-                                },
-                                {
-                                    "metaName": "LayoutPos",
-                                    "metaType": "string",
-                                    "metaValue": "375.132 -125.674"
-                                }
-                            ]
-                        },
-                        {
-                            "nodeName": "set_geo_property_reference",
-                            "nodeType": "Rendering::Materials::set_geo_property_reference",
-                            "metadata": [
-                                {
-                                    "metaName": "DisplayMode",
-                                    "metaType": "string",
-                                    "metaValue": "2"
-                                },
-                                {
-                                    "metaName": "LayoutPos",
-                                    "metaType": "string",
-                                    "metaValue": "101.537 161.053"
-                                }
-                            ]
-                        },
-                        {
-                            "nodeName": "standard_surface_mat1",
-                            "nodeType": "Rendering::Materials::standard_surface_mat",
-                            "metadata": [
-                                {
-                                    "metaName": "DisplayMode",
-                                    "metaType": "string",
-                                    "metaValue": "0"
-                                },
-                                {
-                                    "metaName": "LayoutPos",
-                                    "metaType": "string",
-                                    "metaValue": "-181.308 207.585"
-                                }
-                            ]
-                        }
-                    ],
-                    "connections": [
-                        {
-                            "source": "interpret_auto_port_as_vector.data",
-                            "target": "set_geo_property.data"
-                        },
-                        {
-                            "source": "set_geo_property.out_geometry",
-                            "target": "assign_material.geometry"
-                        },
-                        {
-                            "source": "assign_material.out_geometry",
-                            "target": ".geometry_with_material"
-                        },
-                        {
-                            "source": "set_geo_property_reference.out_material_definition",
-                            "target": "assign_material.surface_material"
-                        },
-                        {
-                            "source": "standard_surface_mat1.standard_surface",
-                            "target": "set_geo_property_reference.material_definition"
-                        },
-                        {
-                            "source": ".geometry",
-                            "target": "interpret_auto_port_as_vector.geometry"
-                        },
-                        {
-                            "source": ".geometry",
-                            "target": "set_geo_property.geometry"
-                        },
-                        {
-                            "source": ".diffuse_color",
-                            "target": "interpret_auto_port_as_vector.interpreted_vector_port"
-                        }
-                    ],
-                    "values": [
-                        {
-                            "valueName": "interpret_auto_port_as_vector.geometry_component",
-                            "valueType": "string",
-                            "value": "point_component"
-                        },
-                        {
-                            "valueName": "interpret_auto_port_as_vector.position_property",
-                            "valueType": "string",
-                            "value": "point_position"
-                        },
-                        {
-                            "valueName": "interpret_auto_port_as_vector.indices",
-                            "valueType": "array<long>",
-                            "value": []
-                        },
-                        {
-                            "valueName": "set_geo_property.property",
-                            "valueType": "string",
-                            "value": "point_color"
-                        },
-                        {
-                            "valueName": "set_geo_property.target",
-                            "valueType": "string",
-                            "value": "point_component"
-                        },
-                        {
-                            "valueName": "assign_material.geometry",
-                            "valueType": "Object",
-                            "value": {}
-                        },
-                        {
-                            "valueName": "assign_material.set_surface",
-                            "valueType": "bool",
-                            "value": "true"
-                        },
-                        {
-                            "valueName": "assign_material.set_displacement",
-                            "valueType": "bool",
-                            "value": "true"
-                        },
-                        {
-                            "valueName": "assign_material.set_volume",
-                            "valueType": "bool",
-                            "value": "true"
-                        },
-                        {
-                            "valueName": "set_geo_property_reference.material_definition",
-                            "valueType": "Object",
-                            "value": {}
-                        },
-                        {
-                            "valueName": "set_geo_property_reference.material_property",
-                            "valueType": "string",
-                            "value": "base_color"
-                        },
-                        {
-                            "valueName": "set_geo_property_reference.geo_property",
-                            "valueType": "string",
-                            "value": "point_color"
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.name",
-                            "valueType": "string",
-                            "value": ""
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.base",
-                            "valueType": "float",
-                            "value": "1f"
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.base_color",
-                            "valueType": "Math::float3",
-                            "value": {
-                                "x": "0.800000012f",
-                                "y": "0.800000012f",
-                                "z": "0.800000012f"
-                            }
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.diffuse_roughness",
-                            "valueType": "float",
-                            "value": "0f"
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.metalness",
-                            "valueType": "float",
-                            "value": "0f"
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.specular",
-                            "valueType": "float",
-                            "value": "1f"
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.specular_color",
-                            "valueType": "Math::float3",
-                            "value": {
-                                "x": "1f",
-                                "y": "1f",
-                                "z": "1f"
-                            }
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.specular_roughness",
-                            "valueType": "float",
-                            "value": "0.200000003f"
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.specular_IOR",
-                            "valueType": "float",
-                            "value": "0f"
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.specular_anisotropy",
-                            "valueType": "float",
-                            "value": "0f"
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.specular_rotation",
-                            "valueType": "float",
-                            "value": "0f"
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.transmission",
-                            "valueType": "float",
-                            "value": "0f"
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.transmission_color",
-                            "valueType": "Math::float3",
-                            "value": {
-                                "x": "1f",
-                                "y": "1f",
-                                "z": "1f"
-                            }
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.transmission_depth",
-                            "valueType": "float",
-                            "value": "0f"
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.transmission_scatter",
-                            "valueType": "Math::float3",
-                            "value": {
-                                "x": "0f",
-                                "y": "0f",
-                                "z": "0f"
-                            }
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.transmission_scatter_anisotropy",
-                            "valueType": "float",
-                            "value": "0f"
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.transmission_dispersion",
-                            "valueType": "float",
-                            "value": "0f"
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.transmission_extra_roughness",
-                            "valueType": "float",
-                            "value": "0f"
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.transmit_aovs",
-                            "valueType": "bool",
-                            "value": "false"
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.subsurface",
-                            "valueType": "float",
-                            "value": "0f"
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.subsurface_color",
-                            "valueType": "Math::float3",
-                            "value": {
-                                "x": "1f",
-                                "y": "1f",
-                                "z": "1f"
-                            }
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.subsurface_radius",
-                            "valueType": "Math::float3",
-                            "value": {
-                                "x": "1f",
-                                "y": "1f",
-                                "z": "1f"
-                            }
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.subsurface_scale",
-                            "valueType": "float",
-                            "value": "1f"
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.subsurface_anisotropy",
-                            "valueType": "float",
-                            "value": "0f"
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.subsurface_type",
-                            "valueType": "char",
-                            "value": "0"
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.coat",
-                            "valueType": "float",
-                            "value": "0f"
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.coat_color",
-                            "valueType": "Math::float3",
-                            "value": {
-                                "x": "1f",
-                                "y": "1f",
-                                "z": "1f"
-                            }
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.coat_roughness",
-                            "valueType": "float",
-                            "value": "0.100000001f"
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.coat_IOR",
-                            "valueType": "float",
-                            "value": "1.5f"
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.coat_anisotropy",
-                            "valueType": "float",
-                            "value": "0f"
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.coat_rotation",
-                            "valueType": "float",
-                            "value": "0f"
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.sheen",
-                            "valueType": "float",
-                            "value": "0f"
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.sheen_color",
-                            "valueType": "Math::float3",
-                            "value": {
-                                "x": "0f",
-                                "y": "0f",
-                                "z": "0f"
-                            }
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.sheen_roughness",
-                            "valueType": "float",
-                            "value": "0f"
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.emission",
-                            "valueType": "float",
-                            "value": "0f"
-                        },
-                        {
-                            "valueName": "standard_surface_mat1.emission_color",
-                            "valueType": "Math::float3",
-                            "value": {
-                                "x": "0f",
-                                "y": "0f",
-                                "z": "0f"
-                            }
-                        }
-                    ],
-                    "reservedNodeNames": [
-                        {
-                            "name": "input"
-                        },
-                        {
-                            "name": "output"
-                        }
-                    ]
                 }
             ],
             "compoundNodes": [
@@ -728,37 +164,6 @@
                     ]
                 },
                 {
-                    "nodeName": "diagnostic_material",
-                    "nodeType": "diagnostic_material",
-                    "metadata": [
-                        {
-                            "metaName": "DisplayMode",
-                            "metaType": "string",
-                            "metaValue": "2"
-                        },
-                        {
-                            "metaName": "UILayout",
-                            "metaType": "string",
-                            "metaValue": "{\n    \"NodeLayout\": {\n        \"hideUndeclaredPorts\": false,\n        \"items\": [\n            {\n                \"port\": \"geometry\"\n            },\n            {\n                \"port\": \"diffuse_color\"\n            },\n            {\n                \"expanded\": false,\n                \"group\": \"Data\",\n                \"items\": [\n                    {\n                        \"port\": \"component\"\n                    }\n                ]\n            },\n            {\n                \"expanded\": false,\n                \"group\": \"data\"\n            },\n            {\n                \"expanded\": false,\n                \"group\": \"Shader\",\n                \"items\": [\n                    {\n                        \"port\": \"diffuse\"\n                    },\n                    {\n                        \"port\": \"specular\"\n                    },\n                    {\n                        \"port\": \"emission\"\n                    }\n                ]\n            }\n        ]\n    }\n}\n"
-                        },
-                        {
-                            "metaName": "LayoutPos",
-                            "metaType": "string",
-                            "metaValue": "1296.68 168.106"
-                        },
-                        {
-                            "metaName": "PortExpandedState",
-                            "metadata": [
-                                {
-                                    "metaName": "Shader",
-                                    "metaType": "string",
-                                    "metaValue": "1"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
                     "nodeName": "create_mesh_cube",
                     "nodeType": "Modeling::Primitive::create_mesh_cube",
                     "metadata": [
@@ -771,6 +176,32 @@
                             "metaName": "LayoutPos",
                             "metaType": "string",
                             "metaValue": "-257.549 179.051"
+                        }
+                    ]
+                },
+                {
+                    "nodeName": "assign_diagnostic_material",
+                    "nodeType": "Diagnostic::Display::assign_diagnostic_material",
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "2"
+                        },
+                        {
+                            "metaName": "PortExpandedState",
+                            "metadata": [
+                                {
+                                    "metaName": "Shader",
+                                    "metaType": "string",
+                                    "metaValue": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "1182.27 159.62"
                         }
                     ]
                 }
@@ -789,20 +220,20 @@
                     "target": "get_point_position.geometry"
                 },
                 {
-                    "source": "pass.output",
-                    "target": "diagnostic_material.geometry"
-                },
-                {
-                    "source": "diagnostic_material.geometry_with_material",
-                    "target": ".out_geometry"
-                },
-                {
                     "source": "create_mesh_cube.cube_mesh",
                     "target": "pass.input"
                 },
                 {
+                    "source": "pass.output",
+                    "target": "assign_diagnostic_material.geometry"
+                },
+                {
                     "source": "power.power",
-                    "target": "diagnostic_material.diffuse_color"
+                    "target": "assign_diagnostic_material.emission_color"
+                },
+                {
+                    "source": "assign_diagnostic_material.geometry_with_material",
+                    "target": ".out_geometry"
                 }
             ],
             "values": [
@@ -871,9 +302,6 @@
                 }
             ],
             "reservedNodeNames": [
-                {
-                    "name": "input"
-                },
                 {
                     "name": "output"
                 }
